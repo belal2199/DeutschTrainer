@@ -1,0 +1,27 @@
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+.angular/
+
+# Local env files
+.env
+**/.env
+!.env.example
+!**/.env.example
+
+# Local database dumps/backups
+*.archive
+*.gz
+mongo-dump/
+
+# Nested repo not part of this project push
+DeutschTrainer/
+
+# Generated blob artifacts
+blobs/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

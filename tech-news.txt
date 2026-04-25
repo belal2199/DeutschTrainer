@@ -1,0 +1,291 @@
+I am working on a MEAN stack application called "Deutsch Trainer". I want to add a new feature called "Tech News" that shows the latest technology news in both German and English, helping the user practice reading German while staying up to date with tech.
+
+---
+
+## API TO USE
+
+Primary: NewsAPI (https://newsapi.org)
+  Endpoint: GET https://newsapi.org/v2/top-headlines
+  Params: category=technology, language=de OR en, pageSize=10, page=1
+  Auth: apiKey query param
+
+Fallback: GNews API (https://gnews.io/api/v4/top-headlines)
+  Params: category=technology, lang=de OR en, max=10, token=YOUR_KEY
+
+IMPORTANT: ALL API calls must be made from the Express backend only.
+Never expose API keys to the Angular frontend.
+The Angular app only ever calls /api/news on our own backend.
+
+---
+
+## BACKEND
+
+### New environment variables (add to .env and .env.example)
+  NEWS_API_KEY=your_newsapi_key_here
+  NEWS_API_URL=https://newsapi.org/v2/top-headlines
+  NEWS_CACHE_TTL=900          # cache duration in seconds (15 min default)
+
+### New file: /server/src/services/news.service.ts
+
+Responsibilities:
+- Fetch German tech news: GET newsapi with language=de, category=technology
+- Fetch English tech news: GET newsapi with language=en, category=technology
+- Both fetches happen in parallel using Promise.all
+- Cache results in memory (simple Map with timestamp) for NEWS_CACHE_TTL seconds
+  to avoid hitting API rate limits on every page visit
+- If NewsAPI returns an error or is unavailable, return the last cached result
+  if available, otherwise return an empty array with an error flag
+- Strip any articles where title is "[Removed]" (NewsAPI sometimes returns these)
+- Add a field "savedForLater: false" to each article before returning
+
+Interface for a NewsArticle:
+{
+  id: string,              // md5 hash of the url, used as stable ID
+  title: string,
+  description: string | null,
+  url: string,
+  urlToImage: string | null,
+  publishedAt: string,     // ISO string
+  source: { name: string },
+  language: "de" | "en",
+  savedForLater: boolean
+}
+
+### New file: /server/src/routes/news.routes.ts
+
+GET /api/news
+  Query params:
+    lang: "de" | "en" | "both" (default: "both")
+    page: number (default: 1)
+    q: string (optional keyword search, passed to NewsAPI)
+  Response:
+  {
+    articles: NewsArticle[],
+    germanCount: number,
+    englishCount: number,
+    cached: boolean,
+    lastUpdated: string,   // ISO timestamp of when cache was last filled
+    error?: string         // only present if there was a partial error
+  }
+
+GET /api/news/search
+  Query params:
+    q: string (required, min 2 chars)
+    lang: "de" | "en" | "both"
+  Uses NewsAPI /v2/everything endpoint with q param and domains filtered
+  to major tech sources (techcrunch.com, theverge.com, wired.com,
+  heise.de, golem.de, t3n.de, computerwoche.de)
+
+Register both routes in the main Express app under /api/news.
+Add rate limiting: max 30 requests per minute per IP on news routes.
+
+---
+
+## FRONTEND — Angular
+
+### New route: /news
+Add "Tech News" to the top navigation bar with a small badge showing
+unread count (count of articles fetched since last visit, stored in
+localStorage as last_news_visit timestamp).
+
+### New standalone component: NewsComponent (/features/news/)
+
+#### Layout — Desktop (>768px)
+Two-column layout side by side:
+  Left column:  German news (flag emoji DE before heading "Auf Deutsch")
+  Right column: English news (flag emoji EN before heading "In English")
+
+#### Layout — Mobile (<768px)
+Tab switcher at the top: "Deutsch" | "English"
+Show one column at a time based on selected tab.
+
+#### Top toolbar
+- Search input (debounced 600ms): searches both languages simultaneously
+  via GET /api/news/search?q=...
+- Refresh button: forces a cache bypass (adds ?refresh=true to request)
+  Shows a small "Zuletzt aktualisiert: vor X Minuten" label next to it
+- Filter pills: "Alle" | "Gespeichert" (shows saved-for-later articles)
+
+#### Article card design
+Each article is a card with:
+  - Source name + language badge (small pill: "DE" in blue or "EN" in teal)
+  - Published time as relative time ("vor 2 Stunden", "vor 1 Tag") — 
+    use a simple pipe to format this, always show in German regardless
+    of article language
+  - Thumbnail image (if urlToImage exists) — lazy loaded, with a grey
+    placeholder if null
+  - Title (clickable — opens article in new tab)
+  - Description (truncated to 2 lines with CSS line-clamp)
+  - Two action buttons at the bottom of the card:
+      "Lesen" → opens url in new tab
+      bookmark icon → toggles savedForLater (stored in localStorage,
+      NOT in the database — no login required)
+
+#### Vocabulary highlight feature
+This is the key learning feature. After articles load, scan all article
+titles and descriptions. Any word that exists in the VERBS, NOUNS, or
+ADJS arrays of the app gets underlined with a dotted border.
+On hover/click, show a small tooltip popup containing:
+  - The German word
+  - English translation
+  - For verbs: the Perfekt form
+  - The category badge
+This connects the news reading directly to the vocabulary the user is
+learning. Use a simple string matching function (case-insensitive,
+match whole words only using word boundary regex).
+
+#### Loading state
+Show skeleton cards (3 per column) while loading.
+Use CSS animation (opacity pulse) for the skeleton effect.
+
+#### Empty / error state
+If no articles load, show a friendly message:
+  "Keine Artikel gefunden. Bitte überprüfe deine Internetverbindung
+  oder versuche es später nochmal."
+With a "Erneut versuchen" button.
+
+#### Saved articles
+When user bookmarks an article, store it in localStorage under key
+"dt_saved_articles" as an array of NewsArticle objects.
+The "Gespeichert" filter pill shows these saved articles from
+localStorage — they are available even offline.
+Show a small toast notification: "Gespeichert" or "Entfernt"
+when toggling bookmark.
+
+---
+
+## NEW ANGULAR SERVICE: NewsService
+
+File: /client/src/app/core/services/news.service.ts
+
+Signals:
+  germanArticles = signal<NewsArticle[]>([])
+  englishArticles = signal<NewsArticle[]>([])
+  isLoading = signal<boolean>(false)
+  lastUpdated = signal<Date | null>(null)
+  error = signal<string | null>(null)
+  savedArticles = signal<NewsArticle[]>([])   // loaded from localStorage on init
+
+Methods:
+  loadNews(forceRefresh?: boolean): void
+  searchNews(query: string, lang?: 'de' | 'en' | 'both'): Observable<NewsArticle[]>
+  toggleSaved(article: NewsArticle): void
+  getSavedArticles(): NewsArticle[]
+  getTimeAgo(dateString: string): string   // returns "vor 2 Stunden" etc.
+
+---
+
+## NEW ANGULAR PIPE: TimeAgoPipe
+
+File: /client/src/app/shared/pipes/time-ago.pipe.ts
+
+Transforms an ISO date string into a German relative time string:
+  < 1 min   → "gerade eben"
+  < 60 min  → "vor X Minuten"
+  < 24 h    → "vor X Stunden"
+  < 7 days  → "vor X Tagen"
+  >= 7 days → formatted date "dd.MM.yyyy"
+
+---
+
+## NEW ANGULAR PIPE: VocabHighlightPipe
+
+File: /client/src/app/shared/pipes/vocab-highlight.pipe.ts
+
+Takes a text string and a vocabulary list.
+Returns HTML string with matching words wrapped in:
+  <span class="vocab-highlight" data-word="[word]" data-en="[translation]"
+        data-perfekt="[perfekt if verb]" data-cat="[category]">[word]</span>
+
+The NewsComponent listens for click events on .vocab-highlight spans
+and shows the tooltip. Use @HostListener or event delegation on the
+article card container.
+
+Tooltip component should be a small absolutely-positioned div that
+appears above the clicked word, auto-closing after 4 seconds or on
+outside click.
+
+---
+
+## TYPES
+
+New file: /shared/types/news.types.ts
+
+export interface NewsArticle {
+  id: string;
+  title: string;
+  description: string | null;
+  url: string;
+  urlToImage: string | null;
+  publishedAt: string;
+  source: { name: string };
+  language: 'de' | 'en';
+  savedForLater: boolean;
+}
+
+export interface NewsResponse {
+  articles: NewsArticle[];
+  germanCount: number;
+  englishCount: number;
+  cached: boolean;
+  lastUpdated: string;
+  error?: string;
+}
+
+---
+
+## DESIGN
+
+Follow the existing dark theme:
+  --bg: #0d0f14
+  --surface: #13161d
+  --surface2: #1a1e28
+  --text: #e8eaf0
+  --muted: #6b7280
+
+Article cards:
+  background: var(--surface)
+  border: 0.5px solid var(--border)
+  border-radius: 12px
+  hover: border-color slightly brighter, subtle background lift
+
+Language badges:
+  DE → background rgba(96,165,250,0.15), color #93c5fd
+  EN → background rgba(52,211,153,0.15), color #6ee7b7
+
+Vocabulary highlight spans:
+  border-bottom: 1.5px dotted #f59e0b
+  cursor: pointer
+  color: inherit (do not change text colour)
+  tooltip: dark card, --surface2 bg, 12px font, max-width 200px
+
+Saved bookmark icon:
+  default: outline style, --muted colour
+  saved: filled style, #f59e0b (amber) colour
+
+Skeleton cards:
+  Same dimensions as real cards
+  background: linear-gradient not allowed — use alternating opacity
+  animation: pulse opacity between 0.4 and 0.8 over 1.2s
+
+---
+
+## IMPLEMENTATION ORDER
+
+Please implement in this exact order:
+1. npm install axios (for backend HTTP calls to NewsAPI — cleaner than node-fetch for this use case)
+2. Create /shared/types/news.types.ts
+3. Create /server/src/services/news.service.ts with caching logic
+4. Create /server/src/routes/news.routes.ts
+5. Register news routes in main Express app
+6. Add NEWS_API_KEY to .env and .env.example
+7. Create TimeAgoPipe
+8. Create VocabHighlightPipe
+9. Create NewsService in Angular
+10. Create the NewsComponent with full layout
+11. Add /news route to Angular router
+12. Add "Tech News" nav item to navbar with unread badge
+
+Show me the current file tree before starting and confirm exactly which
+existing files you will modify. Do not modify any existing component
+unless absolutely necessary — prefer extending over modifying.

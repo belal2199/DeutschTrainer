@@ -1,0 +1,1356 @@
+
+================================================================================
+  DEUTSCH TRAINER — DAILY LIFE CURRICULUM (DUISBURG / RUHRGEBIET EDITION)
+  Language Level: B1/B2 | Style: Conversational, Natural, Ruhrdeutsch-aware
+  Topics: 20 real-life situations | Format: Vocab + Sentences + Dialect + Tips
+================================================================================
+
+HOW TO USE THIS FILE WITH COPILOT:
+-----------------------------------
+Each topic block follows this structure:
+  [TOPIC_ID] — Title
+  NOUNS      — gender + German + English
+  VERBS      — infinitive + English
+  SENTENCES_HEAR  — things others say to you
+  SENTENCES_SAY   — things you say
+  RUHRGEBIET — dialect/slang/pronunciation notes
+  PRO_TIP    — one cultural insight
+
+You can ask Copilot to import each block as a topic object into your
+existing Deutsch Trainer data model (topicId, title, vocabulary[], sentences[], dialect[], proTip).
+
+================================================================================
+TOPIC 01 — GROCERY SHOPPING (Einkaufen im Supermarkt)
+================================================================================
+
+--- NOUNS ---
+der Einkaufswagen     — shopping cart
+die Kasse             — checkout / cash register
+der Kassenbon         — receipt
+das Sonderangebot     — special offer / deal
+der Aufschnitt        — cold cuts / deli meats
+die Tiefkühlkost      — frozen food
+das Pfand             — deposit (on bottles)
+die Tüte              — bag (plastic/paper)
+der Eigenmarke        — store brand / own brand
+das Mindesthaltbarkeitsdatum (MHD) — best before date
+
+--- VERBS ---
+einkaufen             — to go shopping / to buy groceries
+abwiegen              — to weigh (e.g. fruits and vegetables)
+scannen               — to scan (at self-checkout)
+zurückgeben           — to return (a product)
+einlösen              — to redeem (a coupon / Pfand)
+
+--- SENTENCES YOU WILL HEAR ---
+"Haben Sie eine Kundenkarte?"
+  → Do you have a loyalty card?
+"Möchten Sie eine Tüte?"
+  → Would you like a bag?
+"Das macht zusammen 14 Euro 60."
+  → That comes to 14 euros 60.
+"Haben Sie es kleiner?"
+  → Do you have anything smaller? (smaller change)
+"Die Waage ist dort drüben."
+  → The scale is over there.
+"Das ist leider ausverkauft."
+  → That's unfortunately sold out.
+
+--- SENTENCES YOU CAN SAY ---
+"Wo finde ich die Milchprodukte bitte?"
+  → Where can I find the dairy products?
+"Ich würde gerne das Pfand zurückgeben."
+  → I'd like to return the bottles for the deposit.
+"Ist das im Angebot diese Woche?"
+  → Is this on offer this week?
+"Können Sie mir das einpacken?"
+  → Can you pack that for me?
+"Ich glaube, das wurde zweimal gescannt."
+  → I think that was scanned twice.
+"Gibt es hier eine Selbstkasse?"
+  → Is there a self-checkout here?
+
+--- RUHRGEBIET FLAVOR ---
+• Locals say "Aldi" like a religion — "Ich geh kurz zu Aldi" is a full sentence
+  and a social event in the Ruhr area.
+• "Dat" instead of "das": "Dat kostet zu viel, Alter."
+• "Wat" instead of "was": "Wat soll dat kosten?"
+• "Ne?" at the end for confirmation: "Is echt günstig hier, ne?"
+• At the Markt (outdoor market) in Duisburg-Marxloh or the Wochenmarkt,
+  vendors often greet you with "Na, wat darf's sein?"
+• Ruhr shortcut: "Ich gönn mir dat" = I'll treat myself to that.
+
+--- PRO TIP ---
+In German supermarkets (REWE, Edeka, Aldi, Lidl), baggers do NOT exist —
+you pack your own groceries at high speed. Don't panic: it's totally normal
+to put things back in your cart first and bag them at the side table.
+Nobody judges you. Also: always bring your own bag — buying one every time
+feels wasteful and locals notice.
+
+================================================================================
+TOPIC 02 — TABLE TENNIS TRAINING (Tischtennistraining)
+================================================================================
+
+--- NOUNS ---
+der Schläger          — paddle / bat
+der Aufschlag         — serve
+der Rückhand          — backhand
+die Vorhand           — forehand
+der Topspin           — topspin
+der Schnitt           — slice / cut (spin)
+das Netz              — net
+der Satz              — set
+die Trainingshalle    — training hall
+der Vereinskollege    — club teammate
+
+--- VERBS ---
+aufschlagen           — to serve
+returnieren           — to return (the ball)
+trainieren            — to train / to practice
+mitspielen            — to join / play along
+einwärmen             — to warm up
+üben                  — to practice
+verlieren / gewinnen  — to lose / to win
+
+--- SENTENCES YOU WILL HEAR ---
+"Du bist dran mit Aufschlag."
+  → It's your serve.
+"Noch mal — das war aus."
+  → Again — that was out.
+"Willst du eine Runde mitspielen?"
+  → Do you want to join for a round?
+"Wir spielen auf zwei Gewinnsätze."
+  → We're playing best of three.
+"Dein Rückhand ist echt stark geworden!"
+  → Your backhand has really gotten strong!
+"Heute machen wir nur Grundlagen."
+  → Today we're just working on the basics.
+
+--- SENTENCES YOU CAN SAY ---
+"Kannst du mir zeigen, wie man den Topspin macht?"
+  → Can you show me how to do the topspin?
+"Ich bin noch Anfänger, aber ich lerne schnell."
+  → I'm still a beginner, but I learn fast.
+"Spielen wir noch einen Satz?"
+  → Shall we play one more set?
+"War das drin oder draußen?"
+  → Was that in or out?
+"Ich muss noch an meinem Aufschlag arbeiten."
+  → I still need to work on my serve.
+"Kann ich den Schläger kurz ausprobieren?"
+  → Can I try that paddle for a sec?
+
+--- RUHRGEBIET FLAVOR ---
+• "Alter, der Ball war drin!" — very common informal protest at Ruhr sports clubs.
+• "Mach mal Dampf" = pick up the pace / get moving — used when someone's playing slow.
+• "Kumpel" is the classic Ruhr word for buddy/mate — comes from mining culture
+  (Bergbau). Using it at the club earns instant warmth: "Komm, Kumpel, noch'n Satz!"
+• "Ey, das war Glück!" = "Ey, that was lucky!" — said with a grin, never offensively.
+• At Ruhr sports clubs, Vereinsabend (club evening) often matters as much as training.
+  Show up for both.
+
+--- PRO TIP ---
+German sports clubs (Vereine) have a strong social culture — the training is real,
+but so is the chat afterwards. Saying "Ich bin beim Verein" (I'm in the club) carries
+genuine social weight here. If someone invites you to stay after practice for a
+Kaltgetränk (cold drink), say yes. That's where real friendships are built.
+
+================================================================================
+TOPIC 03 — AT THE DOCTOR'S (Beim Arzt)
+================================================================================
+
+--- NOUNS ---
+die Krankenversicherungskarte  — health insurance card
+der Termin                     — appointment
+das Wartezimmer                — waiting room
+die Überweisung                — referral (to a specialist)
+der Facharzt / die Fachärztin  — specialist doctor
+die Bescheinigung              — certificate / written note
+das Rezept                     — prescription
+die Praxis                     — doctor's office / practice
+die Sprechstunde               — office hours / consultation hours
+der Hausarzt / die Hausärztin  — general practitioner (GP)
+
+--- VERBS ---
+untersuchen           — to examine
+überweisen            — to refer (to a specialist)
+verschreiben          — to prescribe
+eintragen             — to register / enter your details
+krank schreiben       — to sign off sick (give sick note)
+abholen               — to pick up (a prescription / results)
+
+--- SENTENCES YOU WILL HEAR ---
+"Haben Sie Ihre Versichertenkarte dabei?"
+  → Do you have your insurance card with you?
+"Sind Sie zum ersten Mal bei uns?"
+  → Is this your first visit with us?
+"Der Arzt hat gleich Zeit für Sie."
+  → The doctor will see you shortly.
+"Wo genau haben Sie die Schmerzen?"
+  → Where exactly does it hurt?
+"Ich stelle Ihnen eine Überweisung aus."
+  → I'll write you a referral.
+"Sie bekommen eine Krankschreibung für drei Tage."
+  → You'll get a sick note for three days.
+
+--- SENTENCES YOU CAN SAY ---
+"Ich hätte gerne einen Termin, bitte."
+  → I'd like to make an appointment, please.
+"Ich habe seit zwei Tagen Halsschmerzen und leichtes Fieber."
+  → I've had a sore throat and a slight fever for two days.
+"Ich nehme bereits Medikamente — ist das ein Problem?"
+  → I'm already taking medication — is that a problem?
+"Können Sie das bitte aufschreiben?"
+  → Could you write that down for me, please?
+"Ich verstehe das nicht ganz — können Sie das nochmal erklären?"
+  → I don't quite understand — could you explain that again?
+"Brauche ich dafür ein Rezept?"
+  → Do I need a prescription for that?
+
+--- RUHRGEBIET FLAVOR ---
+• "Ich bin beim Doktor" — locals drop the article informally.
+• In Duisburg, many Hausärzte have very diverse patient bases — don't be surprised
+  if the receptionist switches to easier German or even English if they sense a language barrier.
+  You can say: "Ich lerne noch Deutsch — bitte langsam." (I'm still learning German — please speak slowly.)
+• "Et tut weh" (Ruhrdeutsch) = "Es tut weh" — it hurts.
+• Locals often say "Ich bin krankgeschrieben" very casually when calling in sick at work.
+
+--- PRO TIP ---
+In Germany, you MUST register with a Hausarzt first — they are your gateway to everything.
+Without a referral (Überweisung), seeing a specialist is harder and often more expensive.
+Register with a Hausarzt near you as soon as possible, even before you're sick.
+Call in the morning: most practices release same-day appointments right when they open.
+
+================================================================================
+TOPIC 04 — TAKING THE BUS & TRAM (Bus und Straßenbahn fahren)
+================================================================================
+
+--- NOUNS ---
+die Haltestelle       — stop (bus/tram)
+der Fahrschein        — ticket
+das Ticket            — ticket (colloquial)
+die Linie             — line (e.g. Linie 901)
+der Anschluss         — connection (to another line)
+die Verspätung        — delay
+der Kontrolleur       — ticket inspector
+das Monatsticket      — monthly pass
+die Endhaltestelle    — final stop / terminus
+der Nahverkehr        — local public transport
+
+--- VERBS ---
+einsteigen            — to board / get on
+aussteigen            — to get off
+umsteigen             — to change (lines)
+verpassen             — to miss (a bus/tram)
+entwerten             — to validate (a ticket — older machines)
+checken / einchecken  — to check in (newer systems)
+
+--- SENTENCES YOU WILL HEAR ---
+"Bitte Fahrscheine bereithalten!"
+  → Please have your tickets ready!
+"Nächste Haltestelle: Duisburg Hauptbahnhof."
+  → Next stop: Duisburg Central Station.
+"Diese Linie fährt nur bis Mühlheim — bitte umsteigen."
+  → This line only goes to Mülheim — please change trains.
+"Ihr Ticket ist leider nicht gültig."
+  → Your ticket is unfortunately not valid.
+"Der Bus hat circa 10 Minuten Verspätung."
+  → The bus is approximately 10 minutes late.
+
+--- SENTENCES YOU CAN SAY ---
+"Fährt diese Linie zum Hauptbahnhof?"
+  → Does this line go to the main station?
+"Wo muss ich umsteigen, um zur Königstraße zu kommen?"
+  → Where do I need to change to get to Königstraße?
+"Ich habe den Bus verpasst — wann kommt der nächste?"
+  → I missed the bus — when is the next one?
+"Kann ich das Ticket auch an der Haltestelle kaufen?"
+  → Can I buy the ticket at the stop too?
+"Entschuldigung, ist das hier die Richtung Innenstadt?"
+  → Excuse me, is this the direction towards the city centre?
+"Können Sie mir Bescheid geben, wenn wir an der Stadtmitte sind?"
+  → Could you let me know when we reach the city centre?
+
+--- RUHRGEBIET FLAVOR ---
+• The VRR (Verkehrsverbund Rhein-Ruhr) is the transport network — you'll hear "VRR-Ticket"
+  and "Deutschlandticket" constantly. The Deutschlandticket (49€/month) covers ALL
+  local transport in Germany — get it immediately.
+• "Die Bahn is wieder spät" (said with resigned acceptance) — a near-universal Ruhr expression.
+• "Ich nehm die 901" — locals refer to lines with "die" + number. The 901 Straßenbahn
+  in Duisburg is iconic.
+• "Ey, fährt der hier noch?" = "Does this one still stop here?" — classic informal question.
+• Ruhr pronunciation: "Ich steig hier aus" often sounds like "Ich steig hia aus."
+
+--- PRO TIP ---
+Get the Deutschlandticket (currently ~49€/month) — it covers all buses, trams, and regional
+trains across Germany. For Duisburg: the VRR app shows real-time departures and you can
+buy tickets digitally. Always have a valid ticket — inspectors (Kontrolleure) work plainclothes
+and the fine is 60€ on the spot, no exceptions and no sympathy.
+
+================================================================================
+TOPIC 05 — AT THE PHARMACY (In der Apotheke)
+================================================================================
+
+--- NOUNS ---
+das Medikament        — medication
+das Rezept            — prescription
+das Schmerzmittel     — painkiller
+das Antibiotikum      — antibiotic
+die Salbe             — ointment / cream
+der Hustensaft        — cough syrup
+die Nebenwirkung      — side effect
+die Packungsbeilage   — package insert / leaflet
+das Zuzahlung         — co-payment
+die Apothekerin       — (female) pharmacist
+
+--- VERBS ---
+einlösen              — to redeem (a prescription)
+empfehlen             — to recommend
+einnehmen             — to take (medication)
+vertragen             — to tolerate (a medication)
+verschreiben          — to prescribe
+
+--- SENTENCES YOU WILL HEAR ---
+"Haben Sie ein Rezept dafür?"
+  → Do you have a prescription for that?
+"Das müssen Sie dreimal täglich nach dem Essen einnehmen."
+  → You need to take this three times a day after eating.
+"Das ist rezeptfrei — das können Sie direkt kaufen."
+  → That's available without a prescription — you can buy it directly.
+"Haben Sie Allergien auf bestimmte Wirkstoffe?"
+  → Do you have any allergies to specific active ingredients?
+"Das kostet mit Kassenrezept nur die Zuzahlung — 5 Euro."
+  → With an insurance prescription, you only pay the co-payment — 5 euros.
+
+--- SENTENCES YOU CAN SAY ---
+"Ich habe ein Rezept von meinem Arzt."
+  → I have a prescription from my doctor.
+"Was empfehlen Sie gegen Kopfschmerzen?"
+  → What do you recommend for headaches?
+"Ich bin gegen Penizillin allergisch."
+  → I'm allergic to penicillin.
+"Gibt es das auch als Generikum?"
+  → Is there a generic version of that?
+"Kann ich das auch während der Schwangerschaft nehmen?"
+  → Can this also be taken during pregnancy?
+"Haben Sie etwas Natürliches gegen Erkältung?"
+  → Do you have something natural for a cold?
+
+--- RUHRGEBIET FLAVOR ---
+• Germans trust their Apotheke enormously — it's not just a shop, it's advisory.
+  Don't be shy about describing symptoms in detail.
+• "Haben Sie wat gegen...?" — Ruhrdeutsch version of "Do you have something for...?"
+• Locals often say "Ich geh zur Apotheke" even for minor things — totally normal.
+• Duisburg tip: many Apotheken in areas like Marxloh have Turkish or Arabic-speaking staff.
+  You can ask: "Spricht hier jemand Arabisch?" if needed.
+
+--- PRO TIP ---
+In Germany, Aspirin, Ibuprofen, and most common meds are ONLY sold in pharmacies —
+NOT in supermarkets. You can get smaller packs at a Drogerie (DM, Rossmann) but proper
+medication always goes through the Apotheke. Pharmacists are highly trained and give real
+medical advice — use them before booking a doctor for minor issues.
+
+================================================================================
+TOPIC 06 — AT THE BAKERY (In der Bäckerei)
+================================================================================
+
+--- NOUNS ---
+das Brötchen          — bread roll
+der Vollkornbrot      — wholegrain bread
+das Croissant         — croissant
+die Brezel            — pretzel
+der Aufschnitt        — cold cuts (for sandwiches)
+die Bäckereiverkäuferin — bakery saleswoman
+die Scheibe           — slice
+die Torte             — cake / gateau
+der Kaffee zum Mitnehmen — coffee to go
+das Tablett           — tray
+
+--- VERBS ---
+aufschneiden          — to slice
+belegen               — to top / fill (a sandwich)
+bestellen             — to order
+einpacken             — to wrap / pack
+vorbestellen          — to pre-order (e.g. for Sunday)
+
+--- SENTENCES YOU WILL HEAR ---
+"Was darf es sein?"
+  → What can I get you? (most common opener)
+"Soll ich das aufschneiden?"
+  → Should I slice it?
+"Wir haben leider kein Roggenbrot mehr."
+  → We unfortunately don't have rye bread left.
+"Möchten Sie das einpacken oder hier essen?"
+  → Would you like it wrapped or eating here?
+"Heute frisch gebacken!"
+  → Baked fresh today!
+
+--- SENTENCES YOU CAN SAY ---
+"Vier Brötchen bitte — zwei Körner und zwei normale."
+  → Four bread rolls please — two seeded and two plain.
+"Einmal Schwarzbrot, bitte in Scheiben geschnitten."
+  → One dark bread, please sliced.
+"Haben Sie auch belegte Brötchen?"
+  → Do you also have filled rolls?
+"Was empfehlen Sie heute?"
+  → What do you recommend today?
+"Kann ich ein Brot für morgen vorbestellen?"
+  → Can I pre-order a loaf for tomorrow?
+"Einen Kaffee bitte — mit Milch."
+  → One coffee please — with milk.
+
+--- RUHRGEBIET FLAVOR ---
+• "Schrippen" — what some older Berliners call bread rolls, but in the Ruhr it's
+  always "Brötchen." Don't let anyone tell you otherwise.
+• "Einmal Mettbrötchen bitte!" — raw minced pork on a bread roll with onions.
+  It's a Ruhr delicacy and people eat it for breakfast. Yes, raw. Yes, it's delicious.
+• "Wat kostet dat?" instead of "Was kostet das?" — totally fine at a local Bäckerei.
+• Many Bäckereien in NRW open at 6:00 AM — going for fresh Brötchen on Sunday morning
+  is practically a ritual.
+
+--- PRO TIP ---
+Germans are extremely serious about their Brot — Germany has over 3,000 registered
+bread varieties. Saying "Das schmeckt wirklich gut!" (That tastes really good!) to a
+baker is a fast-track to a warm relationship and sometimes a free sample. Sunday morning
+Brötchen runs are a cultural event — join them.
+
+================================================================================
+TOPIC 07 — AT THE POST OFFICE (Auf der Post / DHL-Filiale)
+================================================================================
+
+--- NOUNS ---
+das Paket             — parcel / package
+der Brief             — letter
+die Briefmarke        — stamp
+das Einschreiben      — registered mail
+der Absender          — sender
+der Empfänger         — recipient
+die Sendungsnummer    — tracking number
+der Paketschein       — shipping label
+die Packstation       — DHL parcel locker (automated)
+die Nachnahme         — cash on delivery
+
+--- VERBS ---
+aufgeben              — to send / submit (a package)
+verfolgen             — to track (a parcel)
+abholen               — to pick up
+frankieren            — to affix postage / stamp
+weiterleiten          — to forward (mail)
+
+--- SENTENCES YOU WILL HEAR ---
+"Darf ich den Inhalt erfragen?"
+  → May I ask about the contents?
+"Möchten Sie das versichern lassen?"
+  → Would you like to insure it?
+"Hier ist Ihre Sendungsnummer."
+  → Here is your tracking number.
+"Das dauert zwei bis drei Werktage."
+  → That takes two to three working days.
+"Sie können das Paket auch an einer Packstation abgeben."
+  → You can also drop off the package at a parcel locker.
+
+--- SENTENCES YOU CAN SAY ---
+"Ich möchte dieses Paket nach Marokko schicken."
+  → I'd like to send this package to Morocco.
+"Was kostet ein Brief nach Frankreich?"
+  → How much does a letter to France cost?
+"Wie lange dauert die Lieferung?"
+  → How long does delivery take?
+"Ich habe eine Benachrichtigung bekommen — mein Paket liegt hier?"
+  → I received a notification — is my package here?
+"Kann ich das als Einschreiben schicken?"
+  → Can I send this as registered mail?
+"Wo ist die nächste Packstation?"
+  → Where is the nearest parcel locker?
+
+--- RUHRGEBIET FLAVOR ---
+• DHL is dominant in Germany — "Ich schick dat per DHL" is the standard phrase.
+• Packstationen are everywhere in Duisburg — learn to use the DHL app and you'll
+  almost never need to queue at the Post again.
+• "Der Postbote war schon da" (The postman already came) — said with mild frustration
+  when you missed a delivery.
+• "Ich hab 'ne Karte gekriegt" = I got a (missed delivery) card — very common
+  because Germans are often not home during delivery hours.
+
+--- PRO TIP ---
+Set up a DHL Packstation account immediately. Most Germans have one. When you're not
+home for a delivery, packages go there automatically if you enable it in the app.
+This saves you countless trips to the post office. Also: Deutsche Post and DHL are
+the same company — one does letters, one does parcels.
+
+================================================================================
+TOPIC 08 — AT THE BANK (Bei der Bank / Sparkasse)
+================================================================================
+
+--- NOUNS ---
+das Girokonto         — current account / checking account
+die Kontonummer       — account number
+die IBAN              — IBAN
+die Überweisung       — bank transfer
+der Dauerauftrag      — standing order
+die Lastschrift       — direct debit
+die Geheimzahl (PIN)  — PIN
+der Geldautomat       — ATM
+die Filiale           — branch
+das Kreditinstitut    — financial institution
+
+--- VERBS ---
+überweisen            — to transfer (money)
+einzahlen             — to deposit
+abheben               — to withdraw
+eröffnen              — to open (an account)
+kündigen              — to cancel / close (an account)
+einrichten            — to set up (a standing order)
+
+--- SENTENCES YOU WILL HEAR ---
+"Haben Sie einen Termin?"
+  → Do you have an appointment?
+"Darf ich Ihren Ausweis sehen?"
+  → May I see your ID?
+"Die Kontoführungsgebühr beträgt monatlich 5 Euro."
+  → The account maintenance fee is 5 euros per month.
+"Wir schicken Ihnen die Karte per Post."
+  → We'll send the card to you by post.
+"Brauchen Sie Hilfe mit dem Online-Banking?"
+  → Do you need help with online banking?
+
+--- SENTENCES YOU CAN SAY ---
+"Ich möchte ein Girokonto eröffnen."
+  → I'd like to open a current account.
+"Welche Unterlagen brauche ich dafür?"
+  → What documents do I need for that?
+"Kann ich einen Dauerauftrag einrichten?"
+  → Can I set up a standing order?
+"Ich brauche meine IBAN für eine Überweisung."
+  → I need my IBAN for a transfer.
+"Der Geldautomat hat meine Karte einbehalten."
+  → The ATM kept my card.
+"Gibt es hier eine Bearbeitungsgebühr?"
+  → Is there a processing fee here?
+
+--- RUHRGEBIET FLAVOR ---
+• Sparkasse Duisburg is THE local institution — older residents are very loyal to it.
+  Saying "Ich bin bei der Sparkasse" is like saying you're a local.
+• For younger people and newcomers: N26, DKB (Deutsche Kreditbank), and ING are
+  popular online banks — no fees, full English apps.
+• "Ich muss kurz Kohle ziehen" = I need to quickly withdraw cash (Kohle = Ruhr slang for money,
+  literally "coal" — a nod to the mining history).
+• Cash is still king in Germany. "Nur bar" (cash only) signs are common even in 2026.
+
+--- PRO TIP ---
+Open your account as soon as you arrive — you need a Wohnsitzanmeldung
+(registration of residence) first. Take your passport, Anmeldebescheinigung,
+and a proof of address. Without a German bank account you cannot receive a salary,
+pay rent by Überweisung, or set up most contracts. It's the most important admin
+task after registering your address.
+
+================================================================================
+TOPIC 09 — AT THE GYM (Im Fitnessstudio)
+================================================================================
+
+--- NOUNS ---
+das Mitglied          — member
+der Vertrag           — contract / membership agreement
+die Mitgliedschaft    — membership
+das Freihantelbereich — free weights area
+das Laufband          — treadmill
+der Kursplan          — class schedule
+der Spind             — locker
+das Handtuch          — towel
+die Einheit           — session / unit
+der Personaltrainer   — personal trainer
+
+--- VERBS ---
+anmelden              — to register / sign up
+trainieren            — to train / work out
+dehnen                — to stretch
+absagen               — to cancel (a class)
+buchen                — to book (a class)
+kündigen              — to cancel (a membership)
+
+--- SENTENCES YOU WILL HEAR ---
+"Möchten Sie eine Probetraining machen?"
+  → Would you like to do a trial workout?
+"Bitte wischen Sie die Geräte nach der Benutzung ab."
+  → Please wipe down the equipment after use.
+"Der Kurs ist leider ausgebucht."
+  → The class is unfortunately fully booked.
+"Die Mindestlaufzeit beträgt 12 Monate."
+  → The minimum term is 12 months.
+"Sie brauchen Hallenschuhe für den Kursraum."
+  → You need indoor shoes for the studio room.
+
+--- SENTENCES YOU CAN SAY ---
+"Ich würde gerne eine Probeeinheit machen."
+  → I'd like to do a trial session.
+"Was kostet die Mitgliedschaft im Monat?"
+  → What does the membership cost per month?
+"Gibt es eine Einführung in die Geräte?"
+  → Is there an introduction to the equipment?
+"Kann ich den Vertrag monatlich kündigen?"
+  → Can I cancel the contract on a monthly basis?
+"Wie lange läuft die Mindestlaufzeit?"
+  → How long is the minimum contract term?
+"Haben Sie Kurse für Anfänger?"
+  → Do you have classes for beginners?
+
+--- RUHRGEBIET FLAVOR ---
+• McFit, FitX, und RSG Group studios are all over the Ruhr — cheap, no-frills, busy.
+• "Ich bin am Pumpen" = I'm lifting / working out (pumpen = pump, very casual gym slang).
+• "Alter, wieviel machste?" = "Mate, how much are you lifting?" — common gym floor chat.
+• Ruhr gym culture tends to be direct and friendly. Nodding at regulars is standard.
+  Don't be surprised if someone gives you unsolicited training advice — it's meant kindly.
+
+--- PRO TIP ---
+German gym contracts are notoriously hard to cancel — the Kündigungsfrist (notice period)
+is usually 3 months before the contract ends and it must be in writing (Kündigung per Brief
+or email with Lesebestätigung). Set a calendar reminder. Missing it means another full year
+of payments. Some gyms require certified mail (Einschreiben) — always read the contract
+Paragraph by Paragraph before signing.
+
+================================================================================
+TOPIC 10 — AT A RESTAURANT / IMBISS (Im Restaurant / am Imbiss)
+================================================================================
+
+--- NOUNS ---
+die Speisekarte       — menu
+die Vorspeise         — starter
+das Hauptgericht      — main course
+die Beilage           — side dish
+die Rechnung          — bill / check
+das Trinkgeld         — tip
+der Kellner / die Kellnerin — waiter / waitress
+der Imbiss            — snack bar / food stand
+die Bedienung         — service / waiter (informal)
+das Leitungswasser    — tap water
+
+--- VERBS ---
+bestellen             — to order
+empfehlen             — to recommend
+reservieren           — to reserve
+aufteilen             — to split (the bill)
+bezahlen              — to pay
+
+--- SENTENCES YOU WILL HEAR ---
+"Haben Sie schon gewählt?"
+  → Have you decided yet?
+"Was darf ich Ihnen bringen?"
+  → What can I bring you?
+"Zusammen oder getrennt?"
+  → Together or separate? (for the bill)
+"Das Tagesgericht ist heute Schnitzel mit Kartoffelsalat."
+  → Today's daily special is Schnitzel with potato salad.
+"Hat es Ihnen geschmeckt?"
+  → Did you enjoy your meal?
+
+--- SENTENCES YOU CAN SAY ---
+"Ich hätte gerne ein Wasser, bitte."
+  → I'd like a water, please.
+"Was empfehlen Sie heute?"
+  → What do you recommend today?
+"Ich bin Vegetarier / Vegetarierin."
+  → I am a vegetarian.
+"Ich bin leider allergisch gegen Nüsse."
+  → I'm unfortunately allergic to nuts.
+"Die Rechnung bitte — und getrennt, wenn möglich."
+  → The bill please — and separate if possible.
+"Das Essen war wirklich lecker, danke!"
+  → The food was really delicious, thank you!
+
+--- RUHRGEBIET FLAVOR ---
+• The Döner Kebab is practically the official dish of Duisburg. Don't overthink it —
+  "Einen Döner mit allem bitte" and you're done.
+• "Mit alles drauf" = with everything on it (lettuce, tomatoes, onions, sauce) — said
+  at the Imbiss counter.
+• "Scharf oder nicht?" — the vendor will always ask. "Ein bisschen scharf" is a safe answer.
+• Trinkgeld: tipping ~10% is the norm. Round up to the nearest euro for small bills.
+  Say "Stimmt so" (keep the change) when handing over cash.
+• "Noch'n Bier?" — if someone asks, the answer is almost always yes in the Ruhr.
+
+--- PRO TIP ---
+Germans rarely wave down waiters — eye contact is the signal. Locking eyes and giving
+a small nod is the polite way to get service. Shouting "Hallo!" across the room is
+seen as rude. Also: tap water is rarely offered for free — always ask specifically for
+"Leitungswasser" if you want tap; otherwise you'll get a €3 bottle of sparkling water.
+
+================================================================================
+TOPIC 11 — AT THE HAIRDRESSER (Beim Friseur)
+================================================================================
+
+--- NOUNS ---
+der Haarschnitt       — haircut
+die Länge             — length
+die Spitzen           — ends (of hair)
+das Waschen           — wash (hair)
+der Pony              — fringe / bangs
+die Tönung            — toner / hair colouring (light)
+die Färbung           — full hair dye
+das Föhnen            — blow drying
+der Nacken            — nape (of the neck)
+die Schere            — scissors
+
+--- VERBS ---
+schneiden             — to cut
+waschen               — to wash
+föhnen                — to blow dry
+kürzen                — to trim / shorten
+anfassen              — to touch (hair)
+nachschneiden         — to trim again / touch up
+
+--- SENTENCES YOU WILL HEAR ---
+"Wie hätten Sie's denn gerne?"
+  → How would you like it?
+"Wieviel soll ich abnehmen?"
+  → How much should I take off?
+"Soll ich auch den Nacken rasieren?"
+  → Should I also shave the nape?
+"Möchten Sie auch eine Kopfmassage?"
+  → Would you like a head massage too?
+"Was für ein Produkt benutzen Sie normalerweise?"
+  → What kind of product do you normally use?
+
+--- SENTENCES YOU CAN SAY ---
+"Nur die Spitzen bitte — nicht zu viel."
+  → Just the ends please — not too much.
+"Etwa zwei Zentimeter kürzer."
+  → About two centimetres shorter.
+"Oben etwas länger, an den Seiten kürzer."
+  → A bit longer on top, shorter on the sides.
+"Ich möchte die Form behalten."
+  → I'd like to keep the shape.
+"Kein Waschen nötig, danke."
+  → No wash needed, thank you.
+"Können Sie mir zeigen, wie das aussieht bevor Sie fertig sind?"
+  → Can you show me how it looks before you finish?
+
+--- RUHRGEBIET FLAVOR ---
+• Many barbershops in Duisburg (especially Turkish/Arabic-owned) offer razor line-ups,
+  hot towel shaves, and eyebrow threading — at very reasonable prices.
+• "Alter, sieht gut aus!" = "Mate, looks good!" — the standard post-haircut compliment.
+• Prices are generally lower in the Ruhr than in Düsseldorf or Köln.
+• Tip ~1–2€ for simple cuts, up to 5€ for longer or more complex work.
+
+--- PRO TIP ---
+Be very specific with German hairdressers — "a little bit" (ein bisschen) can mean very
+different things. Use your fingers to show the length: "So viel" while pinching a few
+centimetres is clearer than any description. Bring a photo on your phone if you have
+a specific style in mind — "Ich hab ein Bild" is always welcome.
+
+================================================================================
+TOPIC 12 — APARTMENT HUNTING (Wohnungssuche & Einzug)
+================================================================================
+
+--- NOUNS ---
+die Kaltmiete         — cold rent (without utilities)
+die Warmmiete         — warm rent (includes heating)
+die Nebenkosten       — additional costs / utilities
+die Kaution           — security deposit
+der Vermieter         — landlord
+der Mietvertrag       — rental contract
+das Zimmer            — room
+die Wohnfläche        — living area (in m²)
+die Einbauküche       — fitted kitchen
+der Keller            — cellar / basement
+
+--- VERBS ---
+besichtigen           — to view (a flat)
+unterschreiben        — to sign
+einziehen             — to move in
+ausziehen             — to move out
+anmelden              — to register (your address)
+
+--- SENTENCES YOU WILL HEAR ---
+"Die Kaution entspricht drei Monatsmieten."
+  → The deposit is equivalent to three months' rent.
+"Die Wohnung ist ab dem 1. März verfügbar."
+  → The flat is available from 1st March.
+"Eine Einbauküche ist leider nicht vorhanden."
+  → Unfortunately there is no fitted kitchen.
+"Wir brauchen Ihre letzten drei Gehaltsabrechnungen."
+  → We need your last three pay slips.
+"Haustiere sind leider nicht erlaubt."
+  → Pets are unfortunately not allowed.
+
+--- SENTENCES YOU CAN SAY ---
+"Ist die Miete Warm- oder Kaltmiete?"
+  → Is the rent warm or cold (with or without utilities)?
+"Ich würde die Wohnung gerne besichtigen."
+  → I'd like to view the flat.
+"Wie hoch sind die durchschnittlichen Nebenkosten?"
+  → What are the average additional costs?
+"Ist das Badezimmer renoviert?"
+  → Has the bathroom been renovated?
+"Wann kann ich frühestens einziehen?"
+  → What is the earliest I can move in?
+"Sind Haustiere erlaubt?"
+  → Are pets allowed?
+
+--- RUHRGEBIET FLAVOR ---
+• Duisburg has some of the most affordable rents in NRW — don't be surprised by
+  genuinely cheap listings. Areas like Rheinhausen, Walsum, and Hamborn are affordable;
+  Duisburg-Mitte and near the Rhine are slightly pricier.
+• "Die Bude" = casual word for flat / room (very Ruhr). "Ich hab 'ne neue Bude" = I got a new place.
+• When visiting an apartment: check the Heizungsanlage (heating system) and Fenster (windows).
+  Old double-pane windows = high heating bills.
+• Schufa check is MANDATORY for most landlords — get yours early at schufa.de (free once a year).
+
+--- PRO TIP ---
+The first thing you must do when moving in is register your address (Anmeldung) at
+the Bürgeramt within 2 weeks. Take your passport and a Wohnungsgeberbestätigung
+(landlord confirmation form — your landlord must provide this). Without the
+Anmeldung you cannot open a bank account, register with a doctor, or do almost
+anything official in Germany. It is the foundation of everything.
+
+================================================================================
+TOPIC 13 — AT THE GOVERNMENT OFFICE / AMT (Behördengänge)
+================================================================================
+
+--- NOUNS ---
+das Bürgeramt         — citizens' office
+die Anmeldung         — registration (of address)
+der Personalausweis   — ID card
+der Aufenthaltstitel  — residence permit
+die Ausländerbehörde  — immigration office
+das Formular          — form
+die Wartenummer       — queue number
+der Bescheid          — official notification / decision letter
+die Frist             — deadline
+die Gebühr            — fee / charge
+
+--- VERBS ---
+anmelden              — to register
+ummelden              — to re-register (new address)
+beantragen            — to apply for
+einreichen            — to submit (documents)
+verlängern            — to extend / renew
+vorlegen              — to present (documents)
+
+--- SENTENCES YOU WILL HEAR ---
+"Haben Sie alle Unterlagen dabei?"
+  → Do you have all the documents with you?
+"Nehmen Sie bitte eine Nummer."
+  → Please take a number.
+"Der Bescheid wird Ihnen per Post zugeschickt."
+  → The decision will be sent to you by post.
+"Hier fehlt noch eine Unterschrift."
+  → There's still a signature missing here.
+"Ihr Termin ist abgelaufen — Sie müssen einen neuen buchen."
+  → Your appointment has expired — you'll need to book a new one.
+
+--- SENTENCES YOU CAN SAY ---
+"Ich möchte mich anmelden bitte."
+  → I'd like to register my address please.
+"Was brauche ich für diesen Antrag?"
+  → What do I need for this application?
+"Ich spreche noch nicht so gut Deutsch — können Sie langsamer sprechen?"
+  → I don't speak German so well yet — could you speak more slowly?
+"Wann bekomme ich den Bescheid?"
+  → When will I receive the decision?
+"Kann ich das Formular auch online ausfüllen?"
+  → Can I also fill in the form online?
+"Bis wann muss ich das einreichen?"
+  → By when do I need to submit this?
+
+--- RUHRGEBIET FLAVOR ---
+• Duisburg's Ausländerbehörde and Bürgeramt are notoriously busy — always book online
+  in advance at duisburg.de. Walk-ins are rarely possible.
+• Many Ämter in Duisburg have multilingual staff or translation services due to the city's
+  high international population.
+• "Ich wart schon ewig" = I've been waiting forever — the universal Amt waiting room feeling.
+• Bring EVERYTHING in physical form AND digital copies. Germans love paper.
+  "Haben Sie das schriftlich?" (Do you have that in writing?) is basically a national motto.
+
+--- PRO TIP ---
+Book Amt appointments as soon as you arrive — slots fill up weeks in advance, especially
+at the Ausländerbehörde. Bring ORIGINALS plus photocopies of every document. German
+officials will not accept "I forgot it" — they will send you home. Use the
+Duisburg city app or website to pre-fill forms where possible. And: be exactly on time.
+5 minutes late can mean rescheduling.
+
+================================================================================
+TOPIC 14 — CHATTING WITH NEIGHBORS (Mit Nachbarn reden)
+================================================================================
+
+--- NOUNS ---
+der Nachbar / die Nachbarin — neighbor (m/f)
+der Hausflur           — hallway / stairwell
+die Hausordnung        — house rules
+der Lärm               — noise
+der Aushang            — notice (on a board)
+die Hausverwaltung     — property management
+die Mülltonne          — rubbish bin
+der Briefkasten        — letterbox
+die Etage              — floor / storey
+das Treppenhaus        — stairwell
+
+--- VERBS ---
+grüßen                 — to greet
+stören                 — to disturb / bother
+beschweren (sich)      — to complain
+putzen                 — to clean (communal areas)
+klingeln               — to ring (the doorbell)
+
+--- SENTENCES YOU WILL HEAR ---
+"Guten Morgen! Sie sind neu hier, oder?"
+  → Good morning! You're new here, right?
+"Können Sie bitte etwas leiser sein?"
+  → Could you please be a bit quieter?
+"Ich hab ein Paket für Sie angenommen."
+  → I accepted a parcel for you.
+"Die Putzwoche ist diese Woche bei Ihnen."
+  → It's your turn to clean the shared areas this week.
+"Der Aufzug ist leider kaputt."
+  → The lift is unfortunately broken.
+
+--- SENTENCES YOU CAN SAY ---
+"Guten Morgen — ich bin neu hier, ich bin Ihr neuer Nachbar."
+  → Good morning — I'm new here, I'm your new neighbour.
+"Entschuldigung, war ich zu laut gestern Abend?"
+  → Sorry, was I too loud last night?
+"Darf ich kurz fragen, wie die Mülltrennung hier funktioniert?"
+  → May I quickly ask how waste separation works here?
+"Ich hab Ihre Post aus Versehen bekommen."
+  → I got your post by mistake.
+"Wissen Sie, wo der Hausschlüssel für den Keller ist?"
+  → Do you know where the key for the cellar is?
+
+--- RUHRGEBIET FLAVOR ---
+• "Moin" works as a greeting any time in NRW, not just in the morning like in the north.
+• Ruhr neighbors tend to be direct: "Können Sie mal die Musik leise machen?" said with
+  a smile is not aggression — it's just communication.
+• Hausordnung (house rules) are taken seriously — Ruhezeiten (quiet hours) are typically
+  10 PM to 7 AM and 1–3 PM. Violating these leads to real friction.
+• Small gifts when moving in (a box of chocolates, a bottle of wine) go a LONG way in
+  establishing goodwill with German neighbors.
+
+--- PRO TIP ---
+Learn the Ruhezeiten immediately and respect them strictly — noise complaints between
+neighbors are one of the most common sources of legal disputes in Germany. Also,
+Treppenputzen (cleaning the stairwell) is often rotated among residents — check the
+Putzplan (cleaning rota) usually posted in the hallway. Ignoring it is a serious
+social offense here.
+
+================================================================================
+TOPIC 15 — WASTE SEPARATION & RECYCLING (Mülltrennung & Recycling)
+================================================================================
+
+--- NOUNS ---
+die Mülltrennung      — waste separation
+die Biotonne          — organic/food waste bin (brown)
+die Gelbe Tonne / Gelber Sack — yellow bin/bag (packaging/plastics)
+die Papiertonne       — paper bin (blue)
+die Restmülltonne     — general/residual waste bin (grey/black)
+der Wertstoffhof      — recycling centre
+das Altglas           — used glass
+das Pfand             — bottle deposit
+der Sperrmüll         — bulky waste (furniture, etc.)
+der Grüne Punkt       — green dot (recycling symbol)
+
+--- VERBS ---
+trennen               — to separate
+entsorgen             — to dispose of
+recyceln              — to recycle
+abgeben               — to drop off
+abholen lassen        — to have collected
+
+--- SENTENCES YOU WILL HEAR ---
+"Das kommt nicht in den Restmüll — das ist Gelbe Tonne."
+  → That doesn't go in general waste — that's yellow bin.
+"Wann wird die Biotonne geleert?"
+  → When is the organic bin emptied?
+"Sperrmüll muss vorher angemeldet werden."
+  → Bulky waste needs to be registered in advance.
+"Das Glas kommt nach Farbe getrennt ins Altglas."
+  → Glass goes into the used-glass container sorted by colour.
+"Plastiktüten gehören in die Gelbe Tonne."
+  → Plastic bags go in the yellow bin.
+
+--- SENTENCES YOU CAN SAY ---
+"Wohin kommt das leere Joghurtbecher — Restmüll oder Gelbe Tonne?"
+  → Where does the empty yoghurt pot go — general waste or yellow bin?
+"Wann ist der nächste Sperrmülltermin?"
+  → When is the next bulky waste collection?
+"Wo ist der nächste Wertstoffhof?"
+  → Where is the nearest recycling centre?
+"Kann ich alte Elektrogeräte hier abgeben?"
+  → Can I drop off old electrical items here?
+"Ich glaube, ich hab das falsch getrennt — können Sie mir das erklären?"
+  → I think I separated it wrong — can you explain that to me?
+
+--- RUHRGEBIET FLAVOR ---
+• In Duisburg, AWISTA (the waste disposal company) manages collections.
+  The AWISTA app shows collection dates for all bin types.
+• "Dat kommt in de Gelbe Tonne" — Ruhrdeutsch for the yellow bin instruction.
+• Locals who've lived here decades take Mülltrennung VERY seriously.
+  Getting it wrong in front of a neighbor will earn you a lecture.
+• Pfandflaschen (deposit bottles) at 25 cents each — never throw these away!
+  Return them at any Supermarkt Pfandautomat.
+
+--- PRO TIP ---
+Mülltrennung is not optional — it's a civic duty in Germany, and doing it wrong can
+result in your bin not being emptied (they do check). Learn this system in your first
+week. When in doubt: Restmüll is always safe (though wasteful). Cardboard pizza boxes
+with grease go to Restmüll, not Papiertonne. Clean cardboard goes to paper. When
+something is uncertain, google "Was kommt in welche Tonne?"
+
+================================================================================
+TOPIC 16 — AT THE HARDWARE STORE / BAUMARKT (Im Baumarkt)
+================================================================================
+
+--- NOUNS ---
+der Baumarkt          — hardware store / DIY store
+der Dübel             — wall plug / rawlplug
+die Schraube          — screw
+der Bohrer            — drill bit
+die Bohrmaschine      — drill
+das Klebeband         — adhesive tape
+der Pinsel            — paintbrush
+der Farbtopf          — paint tin
+das Maßband           — measuring tape
+die Schutzbrille      — safety glasses
+
+--- VERBS ---
+bohren                — to drill
+schrauben             — to screw
+streichen             — to paint
+messen                — to measure
+befestigen            — to attach / fix
+
+--- SENTENCES YOU WILL HEAR ---
+"Kann ich Ihnen helfen?"
+  → Can I help you?
+"Was möchten Sie befestigen?"
+  → What would you like to attach/fix?
+"Dafür brauchen Sie einen Dübel Größe 6."
+  → For that you need a size 6 wall plug.
+"Der Bohrer dafür liegt in Gang 7."
+  → The drill bit for that is in aisle 7.
+"Wir haben das leider gerade nicht auf Lager."
+  → We unfortunately don't have that in stock right now.
+
+--- SENTENCES YOU CAN SAY ---
+"Ich suche Schrauben für Trockenbau."
+  → I'm looking for drywall screws.
+"Welchen Dübel brauche ich für Rigipsplatten?"
+  → Which wall plug do I need for plasterboard?
+"Ich möchte ein Loch in eine Betonwand bohren — was brauche ich?"
+  → I want to drill a hole in a concrete wall — what do I need?
+"Haben Sie das auch in einer anderen Farbe?"
+  → Do you have that in a different colour too?
+"Können Sie mir zeigen, wo das ist?"
+  → Can you show me where that is?
+"Ich brauche nur eine kleine Menge — haben Sie das einzeln?"
+  → I only need a small amount — do you have them individually?
+
+--- RUHRGEBIET FLAVOR ---
+• OBI, Hornbach, and Bauhaus are the big three Baumärkte in NRW.
+  Hornbach tends to have the most selection; OBI has the most locations.
+• "Ich muss kurz zum Baumarkt" — a very Ruhr Saturday morning activity.
+• Staff in hardware stores are usually knowledgeable and happy to help —
+  describe your problem, not just the part you think you need.
+• "Dat hält dat schon" = That'll hold (said about a quick fix with insufficient materials).
+  Don't trust this from a neighbor about your ceiling lamp.
+
+--- PRO TIP ---
+Take photos of what you're trying to fix BEFORE going to the Baumarkt. Staff can help
+you 10x faster when they can see the actual situation. Also: Baumarkt staff know that
+most customers are not professionals — there is zero shame in saying
+"Ich hab keine Ahnung, ich brauch Hilfe" (I have no idea, I need help). They love this.
+
+================================================================================
+TOPIC 17 — AT THE WEEKLY MARKET (Auf dem Wochenmarkt)
+================================================================================
+
+--- NOUNS ---
+der Wochenmarkt       — weekly market
+der Stand             — stall / stand
+der Händler           — vendor / trader
+die Ware              — goods / produce
+das Obst              — fruit
+das Gemüse            — vegetables
+der Preis pro Kilo    — price per kilo
+die Tüte              — bag
+das Gewürz            — spice
+die Auswahl           — selection / choice
+
+--- VERBS ---
+aussuchen             — to choose / pick out
+probieren             — to try / taste
+abwiegen              — to weigh
+feilschen             — to haggle (rarely done in Germany but possible at markets)
+mitbringen            — to bring along
+
+--- SENTENCES YOU WILL HEAR ---
+"Na, wat darf's sein?"
+  → So, what can I get you? (very market-typical greeting)
+"Frisch von heute Morgen!"
+  → Fresh from this morning!
+"Drei Kilo für fünf Euro — da kannste nicht meckern."
+  → Three kilos for five euros — you can't complain about that.
+"Alles aus der Region hier!"
+  → Everything here is from the region!
+"Möchten Sie mal probieren?"
+  → Would you like to try some?
+
+--- SENTENCES YOU CAN SAY ---
+"Was kostet das pro Kilo?"
+  → How much does this cost per kilo?
+"Ich hätte gerne ein Kilo Tomaten bitte."
+  → I'd like a kilo of tomatoes please.
+"Sind die Äpfel aus der Region?"
+  → Are the apples from the local region?
+"Können Sie mir einen guten Rat geben — was schmeckt gerade besonders?"
+  → Can you give me a recommendation — what's particularly good right now?
+"Ich nehme von allem ein bisschen."
+  → I'll take a bit of everything.
+"Haben Sie auch scharfe Paprika?"
+  → Do you also have hot peppers?
+
+--- RUHRGEBIET / DUISBURG FLAVOR ---
+• The Duisburg Wochenmarkt (various locations around the city) has a huge
+  selection of Turkish, Arabic, and international produce — this is a strength,
+  not an exception. Embrace it.
+• Duisburg's market at Marxloh area has incredible spice and vegetable variety —
+  cheap, fresh, and authentic.
+• Vendors respond very warmly to "Das sieht gut aus!" (That looks good!) or
+  complimenting their produce.
+• "Ey, kann ich kurz probieren?" = "Hey, can I quickly try some?" — totally normal at markets.
+
+--- PRO TIP ---
+Go to the Wochenmarkt in the first hour of opening for the best selection, OR in the
+last 30 minutes before closing for the best prices — vendors often discount remaining
+produce rather than take it home. Always bring cash — most market stalls are
+cash-only, even in 2026.
+
+================================================================================
+TOPIC 18 — WATCHING FOOTBALL / SPORTS BAR (Fußball schauen)
+================================================================================
+
+--- NOUNS ---
+das Spiel             — game / match
+die Mannschaft        — team
+das Tor               — goal
+der Schiedsrichter    — referee
+die Halbzeit          — half-time
+der Elfmeter          — penalty kick
+die Tabelle           — standings / league table
+der Stammtisch        — regular table (at a pub, for a group of regulars)
+der Fan               — fan
+das Auswärtsspiel     — away game
+
+--- VERBS ---
+anfeuern              — to cheer on / support
+verlieren / gewinnen  — to lose / win
+pfeifen               — to whistle (referee action)
+kicken                — to kick / to play football (informal)
+übertragen            — to broadcast
+
+--- SENTENCES YOU WILL HEAR ---
+"Wo wird das Spiel übertragen?"
+  → Where is the match being broadcast?
+"Wer spielt heute Abend?"
+  → Who's playing tonight?
+"Das war klar Elfmeter!"
+  → That was clearly a penalty!
+"Der Schiedsrichter ist blind!"
+  → The referee is blind! (classic frustrated fan expression)
+"Wir schauen das hier — kommst du mit?"
+  → We're watching it here — are you coming along?
+
+--- SENTENCES YOU CAN SAY ---
+"Wo kann ich das Spiel heute Abend schauen?"
+  → Where can I watch the game tonight?
+"Ich bin MSV-Duisburg-Fan — und du?"
+  → I'm an MSV Duisburg fan — what about you?
+"Was war der Endstand gestern?"
+  → What was the final score yesterday?
+"Welche Kneipe zeigt die Bundesliga hier?"
+  → Which pub shows the Bundesliga here?
+"Ich kenn mich noch nicht so gut mit der Bundesliga aus."
+  → I'm not that familiar with the Bundesliga yet.
+"Magst du auch Fußball oder eher was anderes?"
+  → Do you like football too or more something else?
+
+--- RUHRGEBIET FLAVOR ---
+• MSV Duisburg ("Zebras") is the home team. Knowing this gets you instant respect.
+  Even if they're not in the Bundesliga right now, locals are fiercely loyal.
+• "Zebras" refers to MSV's black and white stripes — use the nickname freely.
+• BVB (Borussia Dortmund) and Schalke 04 are the two giants of the Ruhr —
+  their rivalry is intense. Be careful which side you pick in a Kneipenrunde.
+• "Alter, das war doch Abseits!" = "Mate, that was offside!" — essential protest vocabulary.
+• Football is a GENUINE social glue in the Ruhr. Even basic football chat opens doors.
+
+--- PRO TIP ---
+In a German sports bar (Kneipe), rounds (Runden) are a big deal — if someone buys
+a round, you reciprocate. It's not optional. Also: standing up and shouting at a goal
+is completely expected and celebrated. Sitting quietly while everyone erupts around you
+reads as unfriendly. Let yourself be loud. This is one of the few contexts where
+Germans fully let go, and joining in will make you friends instantly.
+
+================================================================================
+TOPIC 19 — AT THE PETROL STATION (An der Tankstelle)
+================================================================================
+
+--- NOUNS ---
+die Tankstelle        — petrol station
+der Kraftstoff        — fuel
+das Benzin            — petrol / gasoline
+der Diesel            — diesel
+die Zapfsäule         — fuel pump
+der Kassenbon         — receipt
+der Luftdruck         — tyre pressure
+die Scheibenwaschanlage — windscreen washer system
+das Motoröl           — engine oil
+die Karosserie        — car body
+
+--- VERBS ---
+tanken                — to refuel
+bezahlen              — to pay
+prüfen                — to check (tyre pressure etc.)
+reinigen              — to clean (windscreen)
+auffüllen             — to top up (oil/washer fluid)
+
+--- SENTENCES YOU WILL HEAR ---
+"Welche Zapfsäule haben Sie benutzt?"
+  → Which pump did you use?
+"Bar zahlen oder Karte?"
+  → Paying with cash or card?
+"Die Tankkarte akzeptieren wir leider nicht."
+  → We unfortunately don't accept that fuel card.
+"Sie können den Luftdruck dort drüben prüfen."
+  → You can check the tyre pressure over there.
+"Bon möchten Sie haben?"
+  → Would you like a receipt?
+
+--- SENTENCES YOU CAN SAY ---
+"Voll tanken bitte — Benzin Super."
+  → Fill it up please — super unleaded.
+"Zapfsäule Nummer drei, bitte."
+  → Pump number three, please.
+"Kann ich hier auch mit Karte zahlen?"
+  → Can I pay by card here too?
+"Wo kann ich den Reifendruck prüfen?"
+  → Where can I check the tyre pressure?
+"Haben Sie Motoröl 5W-30?"
+  → Do you have engine oil 5W-30?
+"Ich brauche auch Scheibenfrostschutz."
+  → I also need windscreen antifreeze.
+
+--- RUHRGEBIET FLAVOR ---
+• Aral is the dominant petrol station brand in NRW — you'll see it everywhere.
+• "Ich muss kurz tanken" is said as casually as "I need to grab a coffee."
+• Tank apps like "mehr tanken" or "TankenApp" show live prices in your area —
+  prices vary significantly between stations in Duisburg.
+• Shop snacks at Tankstellen are called "Tankstellenessen" and despite being
+  overpriced, are consumed with zero shame at midnight.
+
+--- PRO TIP ---
+Fuel prices in Germany are cheapest on Tuesdays and Wednesdays, and cheapest
+between 18:00–20:00 in the evening. ADAC research consistently confirms this.
+Also: do NOT accidentally use the wrong fuel type — the Zapfsäule handles are
+different sizes, but distraction happens. Always look at the label before inserting.
+Putting Benzin into a Diesel engine causes very expensive damage.
+
+================================================================================
+TOPIC 20 — USING THE PUBLIC LIBRARY (In der Stadtbibliothek)
+================================================================================
+
+--- NOUNS ---
+die Stadtbibliothek   — city library
+der Bibliotheksausweis — library card
+das Regal             — shelf
+die Ausleihe          — borrowing / lending section
+die Rückgabe          — return
+die Verlängerung      — extension (of a loan)
+das Sachbuch          — non-fiction book
+der Roman             — novel
+die Zeitschrift       — magazine / journal
+der Lesesaal          — reading room
+
+--- VERBS ---
+ausleihen             — to borrow
+zurückgeben           — to return
+verlängern            — to extend (a loan)
+suchen                — to search
+vormerken             — to reserve / put on hold
+stöbern               — to browse
+
+--- SENTENCES YOU WILL HEAR ---
+"Haben Sie schon einen Bibliotheksausweis?"
+  → Do you already have a library card?
+"Die Ausleihdauer beträgt vier Wochen."
+  → The borrowing period is four weeks.
+"Das Buch ist gerade ausgeliehen — soll ich es für Sie vormerken?"
+  → That book is currently borrowed — shall I reserve it for you?
+"Sie können auch online verlängern."
+  → You can also renew online.
+"Die Rückgabe ist hier vorne."
+  → Returns are here at the front.
+
+--- SENTENCES YOU CAN SAY ---
+"Ich würde gerne einen Bibliotheksausweis beantragen."
+  → I'd like to apply for a library card.
+"Haben Sie auch Bücher auf Arabisch / Türkisch / Englisch?"
+  → Do you also have books in Arabic / Turkish / English?
+"Ich suche Bücher zum Deutschlernen."
+  → I'm looking for books for learning German.
+"Gibt es hier WLAN?"
+  → Is there Wi-Fi here?
+"Kann ich hier auch am Computer arbeiten?"
+  → Can I also work on a computer here?
+"Bis wann muss ich das zurückgeben?"
+  → By when do I have to return this?
+
+--- RUHRGEBIET FLAVOR ---
+• The Duisburg Stadtbibliothek (Steinsche Gasse) is a great resource and often
+  underused by newcomers. It's free to join with your Anmeldebescheinigung.
+• Many branches offer multilingual collections — ask for the "fremdsprachige Medien" section.
+• "Ich geh kurz in die Bücherei" — note: "Bücherei" and "Bibliothek" are used
+  interchangeably in the Ruhr.
+• Onleihe (digital lending) lets you borrow e-books and audiobooks from home with your
+  library card — massive for German learners.
+
+--- PRO TIP ---
+A German library card is free or very cheap, but it is one of the most
+underrated tools for a newcomer. You get: free books, free magazines, free digital
+learning resources (including Babbel and Rosetta Stone at some branches), free Wi-Fi,
+a quiet workspace, and a place where staff genuinely want to help you. Register in your
+first week. It's the most civilised thing you can do.
+
+================================================================================
+  RUHRDEUTSCH QUICK REFERENCE SHEET — USE ACROSS ALL TOPICS
+================================================================================
+
+STANDARD GERMAN → RUHRDEUTSCH
+das             → dat         ("Dat ist gut.")
+was             → wat         ("Wat kostet dat?")
+es              → et          ("Et geht los!")
+ich habe        → ich hab     ("Ich hab keine Ahnung.")
+kannst du       → kannste     ("Kannste mir helfen?")
+hast du         → hasse       ("Hasse wat gesagt?")
+ein(en)         → nen         ("Gib mir nen Tipp.")
+ist es          → isses       ("Isses weit?")
+
+FILLER WORDS & EXPRESSIONS (very Ruhr)
+"Alter!"        → Mate! / Dude! (neutral, used constantly)
+"Ey!"           → Hey! (attention-getter, not aggressive)
+"Ne?"           → Right? / Yeah? (confirmation at end of sentence)
+"Wa?"           → Right? / Huh? (also confirmation, more casual)
+"Und so"        → And stuff / and so on
+"Klar, Kumpel!" → Sure, mate! (Kumpel = buddy, from mining heritage)
+"Mach mal!"     → Go on then! / Do it!
+"Lass mal!"     → Let's go! / Come on!
+"Ich gönn mir dat" → I'll treat myself to that
+
+PRONUNCIATION NOTES
+• The "r" at the end of words is often swallowed: "Wasser" sounds like "Wassa"
+• "ig" at the end sounds like "ich" in standard German, 
+  but Ruhr speakers often say it as "ick": "richtig" → "richtick"
+• "ei" can sound more like "ee" in fast Ruhr speech
+• Rising intonation at end of statements (sounds like a question) — this is normal!
+
+================================================================================
+  END OF FILE — 20 TOPICS COMPLETE
+  Deutsch Trainer | Duisburg Edition | B1/B2 Level
+  Viel Erfolg! 💪 Du schaffst dat!
+================================================================================

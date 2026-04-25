@@ -1,0 +1,55 @@
+.page-title { font-size: 32px; margin-bottom: 4px; }
+.page-sub { color: var(--muted); font-size: 14px; margin-bottom: 20px; }
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 18px;
+  transition: border-color 0.2s;
+}
+
+.card:hover { border-color: rgba(255,255,255,0.12); }
+.card.practiced { opacity: 0.6; }
+
+.head-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.cat-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  background: var(--surface2);
+  color: var(--muted);
+}
+
+.phrase {
+  font-family: var(--font-heading);
+  font-size: 18px;
+  margin-bottom: 6px;
+  line-height: 1.35;
+}
+
+.english {
+  color: var(--text);
+  opacity: 0.9;
+  margin-bottom: 8px;
+}
+
+.use-case {
+  color: var(--muted);
+  font-size: 13px;
+  font-style: italic;
+}

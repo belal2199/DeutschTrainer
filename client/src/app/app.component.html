@@ -1,0 +1,27 @@
+<nav class="navbar">
+  <a routerLink="/" class="logo">Deutsch<span>Trainer</span></a>
+  <div class="nav-links">
+    <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Dashboard</a>
+    <a routerLink="/verbs" routerLinkActive="active">Verben</a>
+    <a routerLink="/nouns" routerLinkActive="active">Nomen</a>
+    <a routerLink="/adjectives" routerLinkActive="active">Adjektive</a>
+    <a routerLink="/sentences" routerLinkActive="active">Sätze</a>
+    <a routerLink="/redemittel" routerLinkActive="active">Redemittel</a>
+    <a routerLink="/flashcards" routerLinkActive="active">Flashcards</a>
+    <a routerLink="/daily-life" routerLinkActive="active">Daily Life</a>
+    <a routerLink="/script" routerLinkActive="active">Script</a>
+    <a routerLink="/korrektur" routerLinkActive="active">Korrektur</a>
+    <a routerLink="/news" routerLinkActive="active" class="nav-news">
+      Tech News
+      @if (unreadNews() > 0) {
+        <span class="unread-badge">{{ unreadNews() }}</span>
+      }
+    </a>
+  </div>
+  @if (streak() > 0) {
+    <div class="streak-badge">{{ streak() }} Tage</div>
+  }
+</nav>
+<main class="content">
+  <router-outlet />
+</main>

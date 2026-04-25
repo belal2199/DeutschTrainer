@@ -1,0 +1,51 @@
+.page-title { font-size: 32px; margin-bottom: 4px; }
+.page-sub { color: var(--muted); font-size: 14px; margin-bottom: 20px; }
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  transition: border-color 0.2s;
+}
+
+.card:hover { border-color: rgba(255,255,255,0.12); }
+.card.practiced { opacity: 0.6; }
+
+.german {
+  font-family: var(--font-heading);
+  font-size: 17px;
+  margin-bottom: 6px;
+  line-height: 1.4;
+}
+
+.english {
+  color: var(--muted);
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.tag {
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+}
+
+.tag.verb { background: rgba(96,165,250,0.12); color: var(--accent-blue); }
+.tag.noun { background: rgba(74,222,128,0.12); color: var(--accent); }
+.tag.adj { background: rgba(249,168,212,0.12); color: var(--accent-pink); }
+.tag.cat { background: var(--surface2); color: var(--muted); }

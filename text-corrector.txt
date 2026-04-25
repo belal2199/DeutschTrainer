@@ -1,0 +1,240 @@
+I am working on a MEAN stack application called "Deutsch Trainer" — a German language practice tool. The frontend is Angular, the backend is Express + Node.js, and the database is MongoDB.
+
+I need you to add TWO new features that both use an AI language model (OpenAI GPT-4o or a configurable provider) to correct German sentences. Both features must be fully integrated into the existing app.
+
+---
+
+## FEATURE 1 — Inline Sentence Corrector (per vocabulary card)
+
+### Where it appears
+Every vocabulary card in the Verben, Nomen, and Adjektive views has an existing "example sentence" display. Below that example sentence, add a small expandable practice area.
+
+### UI behaviour
+1. A small button labelled "Satz üben" appears below the example sentence on each vocabulary card.
+2. Clicking it expands an inline practice panel — it does NOT open a new page.
+3. The panel contains:
+   - A label: "Schreib einen Satz mit '[word]':"
+   - A single-line text input (placeholder: "Dein Satz auf Deutsch…")
+   - A button: "Korrigieren"
+   - A result area below (hidden until API responds)
+4. When the user clicks "Korrigieren":
+   - Show a subtle loading spinner inside the button
+   - Call the backend correction API (see below)
+   - Display the result in the result area
+5. The result area shows three things:
+   - A status badge: "Korrekt" (green) or "Fast korrekt" (amber) or "Mit Fehlern" (red)
+   - The corrected sentence in a styled box (use a different colour from the input if corrections were made; show original if already correct)
+   - A short explanation in simple German (B1–B2 level) of what was wrong, if anything. If nothing is wrong, show a short encouraging message.
+6. The panel stays open until the user clicks "Schließen" or clicks "Satz üben" again to toggle it closed.
+7. Each card manages its own panel state independently — opening one does not close others.
+
+---
+
+## FEATURE 2 — Free Text Corrector (dedicated page/section)
+
+### Where it appears
+Add a new route "/korrektur" and a new nav item "Korrektur" in the top navigation bar.
+
+### UI behaviour
+1. The page has a clear heading: "Freie Textkorrektur"
+2. A sub-heading: "Schreib einen Text auf Deutsch — ich korrigiere ihn."
+3. A large textarea (min 4 rows, resizable):
+   - Placeholder: "Schreib hier deinen deutschen Text…"
+4. Two buttons side by side:
+   - "Korrigieren" (primary)
+   - "Löschen" (secondary, clears input and result)
+5. A character counter below the textarea (e.g. "142 Zeichen")
+6. When the user clicks "Korrigieren":
+   - Show loading state on button
+   - Disable textarea during loading
+   - Call the backend correction API
+   - Display results in a structured result panel below
+7. The result panel shows:
+   - Overall status badge: "Kein Fehler", "Kleinere Fehler", "Mehrere Fehler"
+   - Side-by-side diff view: left = original text, right = corrected text. Highlight changed words/phrases in amber on the left (what was wrong) and green on the right (the correction).
+   - A numbered list of all corrections, each showing:
+       * The wrong phrase (struck through)
+       * The correct phrase (in green)
+       * A short explanation in simple German (1–2 sentences, B1–B2 level)
+   - An overall feedback sentence at the bottom (e.g. "Dein Text ist gut — nur kleine Grammatikfehler.")
+8. A "Verlauf" section below shows the last 5 corrections from this session (stored in Angular service, not persisted to DB). Each entry shows: timestamp, first 60 chars of original text, status badge.
+
+---
+
+## BACKEND — Correction API
+
+### New endpoint
+POST /api/correct
+
+Request body:
+{
+  "text": "string",           // the user's German sentence or text
+  "context"?: "string",       // optional: the vocabulary word being practised (Feature 1 only)
+  "mode": "sentence" | "free" // "sentence" for Feature 1, "free" for Feature 2
+}
+
+Response body:
+{
+  "original": "string",
+  "corrected": "string",
+  "isCorrect": boolean,
+  "status": "correct" | "minor" | "errors",
+  "corrections": [
+    {
+      "original": "string",      // wrong phrase
+      "corrected": "string",     // correct phrase
+      "explanation": "string",   // simple German explanation (B1-B2)
+      "type": "grammar" | "spelling" | "word_order" | "vocabulary" | "article"
+    }
+  ],
+  "overallFeedback": "string",   // short encouraging German sentence
+  "processingTime": number       // milliseconds
+}
+
+### AI prompt (use this exact system prompt for the language model)
+
+SYSTEM PROMPT:
+"""
+Du bist ein freundlicher Deutschlehrer für B1–B2 Lernende. Deine Aufgabe ist es, deutsche Sätze und Texte zu korrigieren.
+
+Regeln:
+1. Korrigiere NUR echte Fehler (Grammatik, Rechtschreibung, Wortstellung, falsche Artikel, falsches Verb).
+2. Verändere NICHT den Stil oder das Vokabular des Lernenden — auch wenn du es anders formulieren würdest.
+3. Erkläre jeden Fehler in einfachem Deutsch (B1–B2 Niveau) — kurz und verständlich.
+4. Sei immer ermutigend und positiv.
+5. Wenn kein Fehler vorliegt, lobe den Lernenden kurz.
+6. Antworte IMMER als valides JSON-Objekt mit dieser exakten Struktur:
+{
+  "corrected": "string",
+  "isCorrect": boolean,
+  "status": "correct" | "minor" | "errors",
+  "corrections": [
+    {
+      "original": "string",
+      "corrected": "string",
+      "explanation": "string",
+      "type": "grammar" | "spelling" | "word_order" | "vocabulary" | "article"
+    }
+  ],
+  "overallFeedback": "string"
+}
+
+Kein Markdown, keine Erklärungen außerhalb des JSON.
+"""
+
+USER PROMPT for sentence mode:
+"""
+Bitte korrigiere diesen deutschen Satz. [Wenn Kontext vorhanden: Der Lernende übt das Wort "[context]".]
+
+Satz: "[text]"
+"""
+
+USER PROMPT for free mode:
+"""
+Bitte korrigiere diesen deutschen Text. Finde alle Fehler und erkläre sie.
+
+Text: "[text]"
+"""
+
+### Environment variable
+Add to .env:
+  OPENAI_API_KEY=your_key_here
+  AI_MODEL=gpt-4o              # configurable, default gpt-4o
+  AI_MAX_TOKENS=1000
+  AI_TEMPERATURE=0.2           # low temperature for consistent corrections
+
+### Error handling
+- If the AI API is unreachable or returns an error: respond with HTTP 503 and message "KI-Service nicht verfügbar. Bitte versuche es später."
+- If the text is empty: respond with HTTP 400 and message "Bitte gib einen Text ein."
+- If the text is longer than 2000 characters: respond with HTTP 400 and message "Text ist zu lang. Maximal 2000 Zeichen."
+- If the AI response is not valid JSON: retry once, then return 500.
+- Add basic rate limiting: max 20 requests per minute per IP.
+
+---
+
+## FRONTEND — Angular service
+
+### New service: CorrectionService (correction.service.ts)
+Methods:
+  correctSentence(text: string, context?: string): Observable<CorrectionResult>
+  correctFreeText(text: string): Observable<CorrectionResult>
+
+The service stores the last 5 correction results in a signal:
+  correctionHistory = signal<CorrectionHistoryItem[]>([])
+
+### New shared interface (shared/types/correction.types.ts)
+export interface CorrectionResult {
+  original: string;
+  corrected: string;
+  isCorrect: boolean;
+  status: 'correct' | 'minor' | 'errors';
+  corrections: CorrectionItem[];
+  overallFeedback: string;
+  processingTime: number;
+}
+
+export interface CorrectionItem {
+  original: string;
+  corrected: string;
+  explanation: string;
+  type: 'grammar' | 'spelling' | 'word_order' | 'vocabulary' | 'article';
+}
+
+export interface CorrectionHistoryItem {
+  timestamp: Date;
+  preview: string;
+  status: 'correct' | 'minor' | 'errors';
+  result: CorrectionResult;
+}
+
+### Correction type badge colours
+  correct   → green  (same as --accent / #4ade80)
+  minor     → amber  (#f59e0b)
+  errors    → red    (#f87171)
+
+---
+
+## DESIGN
+
+Follow the existing dark theme exactly:
+  --bg: #0d0f14
+  --surface: #13161d
+  --surface2: #1a1e28
+  --text: #e8eaf0
+  --muted: #6b7280
+
+For the inline corrector panel on vocabulary cards:
+- Subtle panel with background var(--surface2), border-left 2px solid the category colour of that word
+- Keep it compact — it should not dominate the card
+
+For the diff view in Feature 2:
+- Two-column layout on desktop, stacked on mobile
+- Wrong words: background rgba(245,158,11,0.15), text #fcd34d, text-decoration line-through
+- Correct words: background rgba(74,222,128,0.15), text #86efac
+- Use monospace font (DM Mono) for both columns
+
+For the corrections list:
+- Each correction item is a small card with a left border coloured by type:
+    grammar     → blue   (#60a5fa)
+    spelling    → red    (#f87171)
+    word_order  → purple (#a78bfa)
+    vocabulary  → teal   (#34d399)
+    article     → amber  (#f59e0b)
+
+---
+
+## IMPLEMENTATION ORDER
+
+Please implement in this exact order:
+1. Install openai npm package in /server: npm install openai
+2. Create /server/src/services/correction.service.ts with the AI call logic
+3. Create /server/src/routes/correction.routes.ts with POST /api/correct
+4. Register the route in the main Express app
+5. Add OPENAI_API_KEY to .env.example
+6. Create shared/types/correction.types.ts
+7. Create client/src/app/core/services/correction.service.ts
+8. Create the free text corrector page at /korrektur (standalone Angular component)
+9. Add the route to Angular router and nav item to navbar
+10. Add the inline "Satz üben" panel to the existing vocabulary card component
+
+Ask me before making any assumptions about the existing component structure. Show me the file tree first and confirm which files you will modify before writing any code.
