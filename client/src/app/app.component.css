@@ -55,6 +55,25 @@
   gap: 6px;
 }
 
+.nav-links a.nav-training {
+  background: rgba(245, 158, 11, 0.10);
+  color: var(--accent-amber);
+}
+
+.nav-links a.nav-training::before {
+  content: '⚡ ';
+}
+
+.nav-links a.nav-training:hover {
+  background: rgba(245, 158, 11, 0.18);
+  color: var(--accent-amber);
+}
+
+.nav-links a.nav-training.active {
+  background: rgba(245, 158, 11, 0.22);
+  color: var(--accent-amber);
+}
+
 .unread-badge {
   background: var(--accent);
   color: #0d0f14;

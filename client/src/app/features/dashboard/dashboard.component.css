@@ -16,6 +16,11 @@
   margin-top: 8px;
 }
 
+.neural-wrap {
+  margin: 8px auto 36px;
+  max-width: 720px;
+}
+
 .stat-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));

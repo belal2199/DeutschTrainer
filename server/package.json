@@ -8,7 +8,9 @@
     "start": "node dist/index.js",
     "seed": "ts-node src/seed.ts",
     "seed:daily-life": "ts-node seeds/dailyLifeTopics.seed.ts",
-    "seed:all": "npm run seed && npm run seed:daily-life"
+    "seed:extra": "ts-node src/seed-extra.ts",
+    "seed:b1b2": "ts-node src/seed-b1b2.ts",
+    "seed:all": "npm run seed && npm run seed:daily-life && npm run seed:extra && npm run seed:b1b2"
   },
   "dependencies": {
     "axios": "^1.15.2",

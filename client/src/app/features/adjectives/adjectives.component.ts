@@ -73,14 +73,20 @@ export class AdjectivesComponent implements OnInit {
   onCategory(c: string) { this.category.set(c); }
 
   togglePracticed(adj: Adjective) {
-    const prev = adj.practiced;
-    adj.practiced = !adj.practiced;
-    if (!prev) this.progress.incrementAdjs();
+    const wasPracticed = adj.practiced;
+    this.adjectives.update(list =>
+      list.map(a => a._id === adj._id ? { ...a, practiced: !wasPracticed } : a),
+    );
+    if (!wasPracticed) this.progress.incrementAdjs();
     this.vocab.toggleAdjectivePracticed(adj._id).subscribe({
       next: (updated) => {
         this.adjectives.update(list => list.map(a => a._id === updated._id ? updated : a));
       },
-      error: () => { adj.practiced = prev; }
+      error: () => {
+        this.adjectives.update(list =>
+          list.map(a => a._id === adj._id ? { ...a, practiced: wasPracticed } : a),
+        );
+      },
     });
   }
 }

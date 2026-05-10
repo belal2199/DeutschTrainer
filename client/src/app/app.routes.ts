@@ -9,6 +9,7 @@ export const routes: Routes = [
   { path: 'redemittel', loadComponent: () => import('./features/refemittel/refemittel.component').then(m => m.RefemittelComponent) },
   { path: 'refemittel', redirectTo: 'redemittel' },
   { path: 'flashcards', loadComponent: () => import('./features/flashcards/flashcards.component').then(m => m.FlashcardsComponent) },
+  { path: 'training', loadComponent: () => import('./features/quick-training/quick-training.component').then(m => m.QuickTrainingComponent) },
   { path: 'daily-life', loadComponent: () => import('./features/daily-life/daily-life-list.component').then(m => m.DailyLifeListComponent) },
   { path: 'daily-life/:topicId', loadComponent: () => import('./features/daily-life/daily-life-detail.component').then(m => m.DailyLifeDetailComponent) },
   { path: 'script', loadComponent: () => import('./features/script/script.component').then(m => m.ScriptComponent) },

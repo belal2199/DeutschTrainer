@@ -1,0 +1,18 @@
+Design a clean, modern neural network visualization used inside a learning app to represent a student’s progress.
+
+The network starts minimal and sparse, with only a few soft, thin nodes and connections. As the student studies more, the neural network gradually becomes stronger, denser, and more complex:
+
+• Nodes increase in number and size
+• Connections multiply and grow thicker
+• Lines glow softly, indicating learning activity
+• The network expands organically, like a living brain
+
+Use a calm, motivating color palette (deep blues, purples, and soft neon highlights).
+
+Animate growth subtly: nodes pulse, connections light up, and new paths fade in smoothly as progress increases.
+
+The final state should feel intelligent, powerful, and alive, clearly communicating mastery and progress without overwhelming the user.
+
+Style: minimal, futuristic, educational, premium UX
+Background: soft gradient or dark mode–friendly
+Mood: progress, intelligence, growth, focus

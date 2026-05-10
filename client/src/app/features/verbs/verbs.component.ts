@@ -79,14 +79,20 @@ export class VerbsComponent implements OnInit {
   onCategory(c: string) { this.category.set(c); }
 
   togglePracticed(verb: Verb) {
-    const prev = verb.practiced;
-    verb.practiced = !verb.practiced;
-    if (!prev) this.progress.incrementVerbs();
+    const wasPracticed = verb.practiced;
+    this.verbs.update(list =>
+      list.map(v => v._id === verb._id ? { ...v, practiced: !wasPracticed } : v),
+    );
+    if (!wasPracticed) this.progress.incrementVerbs();
     this.vocab.toggleVerbPracticed(verb._id).subscribe({
       next: (updated) => {
         this.verbs.update(list => list.map(v => v._id === updated._id ? updated : v));
       },
-      error: () => { verb.practiced = prev; }
+      error: () => {
+        this.verbs.update(list =>
+          list.map(v => v._id === verb._id ? { ...v, practiced: wasPracticed } : v),
+        );
+      },
     });
   }
 }

@@ -65,14 +65,20 @@ export class RefemittelComponent implements OnInit {
   onCategory(c: string) { this.category.set(c); }
 
   togglePracticed(item: Refemittel) {
-    const prev = item.practiced;
-    item.practiced = !item.practiced;
-    if (!prev) this.progress.incrementRefemittel();
+    const wasPracticed = item.practiced;
+    this.refemittel.update(list =>
+      list.map(r => r._id === item._id ? { ...r, practiced: !wasPracticed } : r),
+    );
+    if (!wasPracticed) this.progress.incrementRefemittel();
     this.vocab.toggleRefemittelPracticed(item._id).subscribe({
       next: (updated) => {
         this.refemittel.update(list => list.map(r => r._id === updated._id ? updated : r));
       },
-      error: () => { item.practiced = prev; }
+      error: () => {
+        this.refemittel.update(list =>
+          list.map(r => r._id === item._id ? { ...r, practiced: wasPracticed } : r),
+        );
+      },
     });
   }
 }

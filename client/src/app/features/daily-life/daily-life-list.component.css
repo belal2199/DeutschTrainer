@@ -24,6 +24,8 @@
   border-radius: 12px;
   padding: 14px;
   cursor: pointer;
+  color: var(--text);
+  font-family: inherit;
   transition: all 0.18s;
 }
 
@@ -33,6 +35,10 @@
   transform: translateY(-2px);
 }
 
+.card:hover .title-de {
+  color: var(--accent);
+}
+
 .emoji {
   font-size: 30px;
   line-height: 1;
@@ -40,8 +46,13 @@
 }
 
 .title-de {
+  font-family: var(--font-heading);
+  color: var(--text);
   font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
   margin-bottom: 4px;
+  transition: color 0.18s;
 }
 
 .title-en {

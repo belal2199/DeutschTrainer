@@ -1,16 +1,21 @@
-import { Component, OnInit, signal, ElementRef, ViewChild, AfterViewInit } from '@angular/core';
+import { Component, OnInit, signal, ElementRef, ViewChild, AfterViewInit, computed } from '@angular/core';
 import { VocabService, Stats } from '../../core/services/vocab.service';
 import { ProgressService, Progress } from '../../core/services/progress.service';
 import { RouterLink } from '@angular/router';
+import { NeuralProgressComponent } from '../../shared/components/neural-progress/neural-progress.component';
 
 @Component({
   selector: 'app-dashboard',
   standalone: true,
-  imports: [RouterLink],
+  imports: [RouterLink, NeuralProgressComponent],
   template: `
     <div class="hero">
       <h1>Dein täglicher<br><span class="accent">Deutsch Trainer</span></h1>
       <p class="sub">Technisches Deutsch für Software-Entwickler</p>
+    </div>
+
+    <div class="neural-wrap">
+      <app-neural-progress [progress]="masteryProgress()" />
     </div>
 
     <div class="stat-grid">
@@ -70,6 +75,14 @@ export class DashboardComponent implements OnInit, AfterViewInit {
     streak: 0
   });
   progressData = signal<Progress[]>([]);
+
+  masteryProgress = computed<number>(() => {
+    const s = this.stats();
+    const total = s.totalVerbs + s.totalNouns + s.totalAdjectives + s.totalSentences + s.totalRefemittel;
+    if (total === 0) return 0;
+    const practiced = s.practicedVerbs + s.practicedNouns + s.practicedAdjectives + s.practicedSentences + s.practicedRefemittel;
+    return Math.max(0, Math.min(1, practiced / total));
+  });
 
   constructor(private vocab: VocabService, private progressService: ProgressService) {}
 

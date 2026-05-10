@@ -58,14 +58,20 @@ export class SentencesComponent implements OnInit {
   onCategory(c: string) { this.category.set(c); }
 
   togglePracticed(sentence: Sentence) {
-    const prev = sentence.practiced;
-    sentence.practiced = !sentence.practiced;
-    if (!prev) this.progress.incrementSentences();
+    const wasPracticed = sentence.practiced;
+    this.sentences.update(list =>
+      list.map(s => s._id === sentence._id ? { ...s, practiced: !wasPracticed } : s),
+    );
+    if (!wasPracticed) this.progress.incrementSentences();
     this.vocab.toggleSentencePracticed(sentence._id).subscribe({
       next: (updated) => {
         this.sentences.update(list => list.map(s => s._id === updated._id ? updated : s));
       },
-      error: () => { sentence.practiced = prev; }
+      error: () => {
+        this.sentences.update(list =>
+          list.map(s => s._id === sentence._id ? { ...s, practiced: wasPracticed } : s),
+        );
+      },
     });
   }
 }

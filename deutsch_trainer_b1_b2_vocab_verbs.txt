@@ -1,0 +1,586 @@
+
+================================================================================
+  DEUTSCH TRAINER — B1 & B2 VERBS AND VOCABULARY MASTER LIST
+  Format: German | English | Perfekt (verbs) | Category | Example Sentence DE | Example Sentence EN
+  Total: 80 B1 Verbs | 80 B2 Verbs | 80 B1 Nouns | 80 B2 Nouns | 50 B1 Adjectives | 50 B2 Adjectives
+================================================================================
+
+DATA MODEL HINT FOR COPILOT:
+Each entry follows this pattern:
+
+VERBS:
+  infinitiv | english | perfekt | level | category | exampleDe | exampleEn
+
+NOUNS:
+  article | german | english | level | category | exampleDe | exampleEn
+
+ADJECTIVES:
+  german | english | level | category | exampleDe | exampleEn
+
+================================================================================
+SECTION 1 — B1 VERBS (80 Verben)
+================================================================================
+
+--- CATEGORY: Alltag (Daily Life) ---
+
+01 | aufräumen       | to tidy up          | hat aufgeräumt        | B1 | Alltag    | Ich räume jeden Sonntag mein Zimmer auf.           | I tidy up my room every Sunday.
+02 | einkaufen       | to go shopping      | hat eingekauft        | B1 | Alltag    | Sie geht jeden Samstag einkaufen.                  | She goes shopping every Saturday.
+03 | kochen          | to cook             | hat gekocht           | B1 | Alltag    | Er kocht heute Abend Pasta für die ganze Familie.  | He's cooking pasta for the whole family tonight.
+04 | aufwachen       | to wake up          | ist aufgewacht        | B1 | Alltag    | Ich wache meistens um sieben Uhr auf.              | I usually wake up at seven o'clock.
+05 | einschlafen     | to fall asleep      | ist eingeschlafen     | B1 | Alltag    | Das Baby ist endlich eingeschlafen.                | The baby has finally fallen asleep.
+06 | duschen         | to shower           | hat geduscht          | B1 | Alltag    | Ich dusche jeden Morgen kalt.                      | I shower cold every morning.
+07 | waschen         | to wash             | hat gewaschen         | B1 | Alltag    | Hast du schon die Wäsche gewaschen?                | Have you already done the laundry?
+08 | putzen          | to clean            | hat geputzt           | B1 | Alltag    | Sie putzt jeden Freitag die Wohnung.               | She cleans the flat every Friday.
+09 | abholen         | to pick up          | hat abgeholt          | B1 | Alltag    | Kannst du mich bitte vom Bahnhof abholen?          | Can you pick me up from the station please?
+10 | bringen         | to bring            | hat gebracht          | B1 | Alltag    | Er hat mir einen Kaffee mitgebracht.               | He brought me a coffee.
+
+--- CATEGORY: Kommunikation (Communication) ---
+
+11 | erklären        | to explain          | hat erklärt           | B1 | Kommunikation | Kannst du mir das nochmal erklären?            | Can you explain that to me again?
+12 | fragen          | to ask              | hat gefragt           | B1 | Kommunikation | Sie hat mich nach dem Weg gefragt.             | She asked me for directions.
+13 | antworten       | to answer           | hat geantwortet       | B1 | Kommunikation | Er hat auf meine E-Mail nicht geantwortet.     | He didn't answer my email.
+14 | beschreiben     | to describe         | hat beschrieben       | B1 | Kommunikation | Beschreib mir bitte, wie er aussieht.          | Please describe to me what he looks like.
+15 | vorstellen      | to introduce        | hat vorgestellt       | B1 | Kommunikation | Ich möchte euch meinen Kollegen vorstellen.    | I'd like to introduce my colleague to you.
+16 | berichten       | to report           | hat berichtet         | B1 | Kommunikation | Sie hat über ihre Reise berichtet.             | She reported about her trip.
+17 | diskutieren     | to discuss          | hat diskutiert        | B1 | Kommunikation | Wir haben lange über das Problem diskutiert.   | We discussed the problem for a long time.
+18 | erzählen        | to tell / narrate   | hat erzählt           | B1 | Kommunikation | Er erzählt immer lustige Geschichten.          | He always tells funny stories.
+19 | versprechen     | to promise          | hat versprochen       | B1 | Kommunikation | Sie hat mir versprochen, pünktlich zu sein.    | She promised me to be on time.
+20 | bitten          | to ask / request    | hat gebeten           | B1 | Kommunikation | Ich bitte dich, leiser zu sprechen.            | I'm asking you to speak more quietly.
+
+--- CATEGORY: Arbeit (Work) ---
+
+21 | bewerben (sich) | to apply for a job  | hat sich beworben     | B1 | Arbeit    | Ich habe mich für drei Stellen beworben.           | I have applied for three positions.
+22 | kündigen        | to quit / resign    | hat gekündigt         | B1 | Arbeit    | Er hat nach zehn Jahren gekündigt.                 | He resigned after ten years.
+23 | einstellen      | to hire             | hat eingestellt       | B1 | Arbeit    | Das Unternehmen stellt neue Mitarbeiter ein.       | The company is hiring new employees.
+24 | verdienen       | to earn             | hat verdient          | B1 | Arbeit    | Sie verdient sehr gut in ihrem neuen Job.          | She earns very well in her new job.
+25 | arbeiten        | to work             | hat gearbeitet        | B1 | Arbeit    | Er arbeitet seit fünf Jahren bei dieser Firma.     | He has been working at this company for five years.
+26 | planen          | to plan             | hat geplant           | B1 | Arbeit    | Wir planen das Projekt für das nächste Quartal.    | We are planning the project for next quarter.
+27 | organisieren    | to organise         | hat organisiert       | B1 | Arbeit    | Sie organisiert alle Meetings im Team.             | She organises all the team meetings.
+28 | präsentieren    | to present          | hat präsentiert       | B1 | Arbeit    | Er präsentiert die Ergebnisse morgen.              | He is presenting the results tomorrow.
+29 | überprüfen      | to check / verify   | hat überprüft         | B1 | Arbeit    | Bitte überprüfe die Zahlen nochmal.                | Please check the numbers again.
+30 | vorbereiten     | to prepare          | hat vorbereitet       | B1 | Arbeit    | Sie bereitet sich gut auf das Interview vor.       | She is preparing well for the interview.
+
+--- CATEGORY: Bewegung & Transport (Movement & Transport) ---
+
+31 | umsteigen       | to change (transport)| ist umgestiegen      | B1 | Transport | Du musst am Hauptbahnhof umsteigen.                | You need to change at the main station.
+32 | ankommen        | to arrive           | ist angekommen        | B1 | Transport | Der Zug kommt um 14 Uhr an.                        | The train arrives at 2 PM.
+33 | abfahren        | to depart           | ist abgefahren        | B1 | Transport | Der Bus fährt in zehn Minuten ab.                  | The bus departs in ten minutes.
+34 | verpassen       | to miss             | hat verpasst          | B1 | Transport | Ich habe den letzten Zug verpasst.                 | I missed the last train.
+35 | parken          | to park             | hat geparkt           | B1 | Transport | Hier darf man nicht parken.                        | You're not allowed to park here.
+36 | einsteigen      | to board / get on   | ist eingestiegen      | B1 | Transport | Bitte steigen Sie vorne ein.                       | Please board from the front.
+37 | aussteigen      | to get off          | ist ausgestiegen      | B1 | Transport | Ich steige an der nächsten Haltestelle aus.        | I'm getting off at the next stop.
+38 | spazieren gehen | to go for a walk    | ist spazieren gegangen| B1 | Bewegung  | Wir gehen nach dem Abendessen spazieren.           | We go for a walk after dinner.
+39 | laufen          | to run / walk       | ist gelaufen          | B1 | Bewegung  | Sie läuft jeden Morgen fünf Kilometer.             | She runs five kilometres every morning.
+40 | umziehen        | to move (flat)      | ist umgezogen         | B1 | Bewegung  | Wir sind letzten Monat umgezogen.                  | We moved last month.
+
+--- CATEGORY: Gefühle & Meinungen (Feelings & Opinions) ---
+
+41 | sich freuen     | to be happy / look forward to | hat sich gefreut | B1 | Gefühle | Ich freue mich sehr auf das Wochenende.        | I'm really looking forward to the weekend.
+42 | sich ärgern     | to be annoyed       | hat sich geärgert     | B1 | Gefühle   | Er ärgert sich über den Stau.                      | He's annoyed about the traffic jam.
+43 | sich fühlen     | to feel             | hat sich gefühlt      | B1 | Gefühle   | Ich fühle mich heute nicht so gut.                 | I don't feel so well today.
+44 | hoffen          | to hope             | hat gehofft           | B1 | Gefühle   | Ich hoffe, dass es morgen nicht regnet.            | I hope it doesn't rain tomorrow.
+45 | befürchten      | to fear / worry     | hat befürchtet        | B1 | Gefühle   | Ich befürchte, dass wir zu spät kommen.            | I fear that we'll arrive too late.
+46 | meinen          | to think / mean     | hat gemeint           | B1 | Meinungen | Was meinst du damit?                               | What do you mean by that?
+47 | glauben         | to believe / think  | hat geglaubt          | B1 | Meinungen | Ich glaube, das ist eine gute Idee.                | I think that's a good idea.
+48 | finden          | to find / think     | hat gefunden          | B1 | Meinungen | Wie findest du den neuen Film?                     | What do you think of the new film?
+49 | zustimmen       | to agree            | hat zugestimmt        | B1 | Meinungen | Ich stimme dir vollkommen zu.                      | I completely agree with you.
+50 | ablehnen        | to reject / decline | hat abgelehnt         | B1 | Meinungen | Sie hat das Angebot leider abgelehnt.              | She unfortunately declined the offer.
+
+--- CATEGORY: Gesundheit (Health) ---
+
+51 | sich erholen    | to recover / rest   | hat sich erholt       | B1 | Gesundheit| Er erholt sich nach der Operation gut.             | He is recovering well after the operation.
+52 | wehtun          | to hurt             | hat wehgetan          | B1 | Gesundheit| Mein Rücken tut seit gestern weh.                  | My back has been hurting since yesterday.
+53 | verschreiben    | to prescribe        | hat verschrieben      | B1 | Gesundheit| Der Arzt hat mir Antibiotika verschrieben.         | The doctor prescribed me antibiotics.
+54 | sich erkälten   | to catch a cold     | hat sich erkältet     | B1 | Gesundheit| Ich habe mich letzte Woche erkältet.               | I caught a cold last week.
+55 | abnehmen        | to lose weight      | hat abgenommen        | B1 | Gesundheit| Er hat in drei Monaten fünf Kilo abgenommen.       | He lost five kilos in three months.
+56 | zunehmen        | to gain weight      | hat zugenommen        | B1 | Gesundheit| Im Winter nehme ich immer etwas zu.                | I always gain a bit of weight in winter.
+57 | schmerzen       | to ache / hurt      | hat geschmerzt        | B1 | Gesundheit| Die Wunde schmerzt noch ein bisschen.              | The wound still hurts a little.
+58 | untersuchen     | to examine          | hat untersucht        | B1 | Gesundheit| Der Arzt hat mich gründlich untersucht.            | The doctor examined me thoroughly.
+
+--- CATEGORY: Freizeit (Leisure) ---
+
+59 | reisen          | to travel           | ist gereist           | B1 | Freizeit  | Sie reist jedes Jahr in ein anderes Land.          | She travels to a different country every year.
+60 | besuchen        | to visit            | hat besucht           | B1 | Freizeit  | Wir besuchen meine Eltern am Wochenende.           | We're visiting my parents this weekend.
+61 | treffen (sich)  | to meet up          | hat sich getroffen    | B1 | Freizeit  | Wir treffen uns jeden Freitag nach der Arbeit.     | We meet up every Friday after work.
+62 | feiern          | to celebrate        | hat gefeiert          | B1 | Freizeit  | Sie feiern heute Abend ihren Geburtstag.           | They're celebrating her birthday tonight.
+63 | einladen        | to invite           | hat eingeladen        | B1 | Freizeit  | Er hat uns zu sich nach Hause eingeladen.          | He invited us to his home.
+64 | spielen         | to play             | hat gespielt          | B1 | Freizeit  | Die Kinder spielen draußen im Garten.              | The children are playing outside in the garden.
+65 | lesen           | to read             | hat gelesen           | B1 | Freizeit  | Ich lese jeden Abend vor dem Schlafen.             | I read every evening before bed.
+66 | schauen         | to watch            | hat geschaut          | B1 | Freizeit  | Wir schauen heute Abend einen Film.                | We're watching a film tonight.
+
+--- CATEGORY: Finanzen & Verwaltung (Finance & Admin) ---
+
+67 | bezahlen        | to pay              | hat bezahlt           | B1 | Finanzen  | Kann ich hier mit Karte bezahlen?                  | Can I pay by card here?
+68 | sparen          | to save (money)     | hat gespart           | B1 | Finanzen  | Ich spare für eine neue Wohnung.                   | I'm saving up for a new flat.
+69 | überweisen      | to transfer (money) | hat überwiesen        | B1 | Finanzen  | Ich überweise die Miete am ersten des Monats.      | I transfer the rent on the first of the month.
+70 | ausfüllen       | to fill in (a form) | hat ausgefüllt        | B1 | Verwaltung| Bitte füllen Sie dieses Formular aus.              | Please fill in this form.
+71 | unterschreiben  | to sign             | hat unterschrieben    | B1 | Verwaltung| Er hat den Vertrag heute unterschrieben.           | He signed the contract today.
+72 | beantragen      | to apply for        | hat beantragt         | B1 | Verwaltung| Sie beantragt eine neue Aufenthaltserlaubnis.      | She is applying for a new residence permit.
+73 | einreichen      | to submit           | hat eingereicht       | B1 | Verwaltung| Die Unterlagen müssen bis Freitag eingereicht werden. | The documents must be submitted by Friday.
+74 | anmelden        | to register         | hat angemeldet        | B1 | Verwaltung| Ich muss mich beim Bürgeramt anmelden.             | I need to register at the citizens' office.
+
+--- CATEGORY: Lernen & Bildung (Learning & Education) ---
+
+75 | verstehen       | to understand       | hat verstanden        | B1 | Bildung   | Ich verstehe die Aufgabe nicht ganz.               | I don't quite understand the task.
+76 | wiederholen     | to repeat / revise  | hat wiederholt        | B1 | Bildung   | Können Sie das bitte wiederholen?                  | Could you please repeat that?
+77 | nachschlagen    | to look up          | hat nachgeschlagen    | B1 | Bildung   | Ich schlage das Wort im Wörterbuch nach.           | I'm looking the word up in the dictionary.
+78 | üben            | to practice         | hat geübt             | B1 | Bildung   | Ich übe jeden Tag eine Stunde Deutsch.             | I practice German for one hour every day.
+79 | lernen          | to learn            | hat gelernt           | B1 | Bildung   | Sie lernt gerade Deutsch für die Arbeit.           | She is currently learning German for work.
+80 | prüfen          | to test / check     | hat geprüft           | B1 | Bildung   | Der Lehrer prüft die Hausaufgaben.                 | The teacher checks the homework.
+
+================================================================================
+SECTION 2 — B2 VERBS (80 Verben)
+================================================================================
+
+--- CATEGORY: Denken & Analysieren (Thinking & Analysis) ---
+
+01 | analysieren     | to analyse          | hat analysiert        | B2 | Analyse   | Wir müssen die Situation genauer analysieren.      | We need to analyse the situation more carefully.
+02 | bewerten        | to evaluate         | hat bewertet          | B2 | Analyse   | Der Manager bewertet die Leistung der Mitarbeiter. | The manager evaluates the employees' performance.
+03 | beurteilen      | to assess / judge   | hat beurteilt         | B2 | Analyse   | Es ist schwer, das von außen zu beurteilen.        | It's hard to assess that from the outside.
+04 | vergleichen     | to compare          | hat verglichen        | B2 | Analyse   | Bitte vergleichen Sie die beiden Angebote.         | Please compare the two offers.
+05 | berücksichtigen | to take into account | hat berücksichtigt   | B2 | Analyse   | Wir müssen alle Faktoren berücksichtigen.          | We need to take all factors into account.
+06 | schlußfolgern   | to conclude         | hat geschlussfolgert  | B2 | Analyse   | Daraus lässt sich schlussfolgern, dass...          | From this one can conclude that...
+07 | hinterfragen    | to question         | hat hinterfragt       | B2 | Analyse   | Man sollte diese Aussage kritisch hinterfragen.    | One should question this statement critically.
+08 | abwägen         | to weigh up         | hat abgewogen         | B2 | Analyse   | Ich muss die Vor- und Nachteile abwägen.           | I need to weigh up the pros and cons.
+09 | einschätzen     | to estimate / assess| hat eingeschätzt      | B2 | Analyse   | Wie schätzen Sie die Lage ein?                     | How do you assess the situation?
+10 | ableiten        | to derive / conclude| hat abgeleitet        | B2 | Analyse   | Welche Konsequenzen leiten Sie daraus ab?          | What conclusions do you derive from that?
+
+--- CATEGORY: Kommunikation (Advanced Communication) ---
+
+11 | überzeugen      | to convince         | hat überzeugt         | B2 | Kommunikation | Er hat das Team von seiner Idee überzeugt.     | He convinced the team of his idea.
+12 | widersprechen   | to contradict       | hat widersprochen     | B2 | Kommunikation | Ich muss Ihnen hier leider widersprechen.       | I unfortunately have to contradict you here.
+13 | betonen         | to emphasise        | hat betont            | B2 | Kommunikation | Sie betonte, wie wichtig Pünktlichkeit ist.    | She emphasised how important punctuality is.
+14 | vermitteln      | to convey / mediate | hat vermittelt        | B2 | Kommunikation | Er vermittelt komplexe Themen sehr klar.       | He conveys complex topics very clearly.
+15 | formulieren     | to formulate        | hat formuliert        | B2 | Kommunikation | Können Sie das anders formulieren?             | Can you formulate that differently?
+16 | verdeutlichen   | to clarify / illustrate | hat verdeutlicht  | B2 | Kommunikation | Ein Beispiel verdeutlicht das sehr gut.        | An example illustrates this very well.
+17 | einwenden       | to object           | hat eingewandt        | B2 | Kommunikation | Darf ich kurz einwenden, dass...               | May I briefly object that...
+18 | behaupten       | to claim            | hat behauptet         | B2 | Kommunikation | Er behauptet, das schon gewusst zu haben.      | He claims to have already known that.
+19 | begründen       | to justify / give reasons | hat begründet   | B2 | Kommunikation | Bitte begründen Sie Ihre Entscheidung.         | Please justify your decision.
+20 | zusammenfassen  | to summarise        | hat zusammengefasst   | B2 | Kommunikation | Können Sie die wichtigsten Punkte zusammenfassen? | Can you summarise the key points?
+
+--- CATEGORY: Arbeit & Karriere (Work & Career) ---
+
+21 | delegieren      | to delegate         | hat delegiert         | B2 | Karriere  | Eine gute Führungskraft kann gut delegieren.       | A good leader can delegate well.
+22 | koordinieren    | to coordinate       | hat koordiniert       | B2 | Karriere  | Sie koordiniert alle Projektbeteiligten.           | She coordinates all project participants.
+23 | umsetzen        | to implement        | hat umgesetzt         | B2 | Karriere  | Wir setzen die neue Strategie ab Januar um.        | We will implement the new strategy from January.
+24 | optimieren      | to optimise         | hat optimiert         | B2 | Karriere  | Wir versuchen, den Prozess zu optimieren.          | We are trying to optimise the process.
+25 | priorisieren    | to prioritise       | hat priorisiert       | B2 | Karriere  | Welche Aufgaben soll ich priorisieren?             | Which tasks should I prioritise?
+26 | abstimmen       | to coordinate / vote| hat abgestimmt        | B2 | Karriere  | Das muss ich noch mit dem Team abstimmen.          | I still need to coordinate that with the team.
+27 | nachverfolgen   | to follow up / track| hat nachverfolgt      | B2 | Karriere  | Ich verfolge alle offenen Punkte nach.             | I follow up on all open items.
+28 | eskalieren      | to escalate         | hat eskaliert         | B2 | Karriere  | Das Problem muss ich leider eskalieren.            | I unfortunately need to escalate this problem.
+29 | strukturieren   | to structure        | hat strukturiert      | B2 | Karriere  | Er strukturiert seine Arbeit sehr effizient.       | He structures his work very efficiently.
+30 | übernehmen      | to take over        | hat übernommen        | B2 | Karriere  | Sie übernimmt ab Montag die Projektleitung.        | She takes over the project management from Monday.
+
+--- CATEGORY: Gesellschaft & Politik (Society & Politics) ---
+
+31 | fordern         | to demand           | hat gefordert         | B2 | Gesellschaft | Die Gewerkschaft fordert höhere Löhne.          | The union is demanding higher wages.
+32 | durchsetzen     | to enforce / push through | hat durchgesetzt | B2 | Gesellschaft | Das Gesetz wurde letzte Woche durchgesetzt.    | The law was enforced last week.
+33 | einschränken    | to restrict         | hat eingeschränkt     | B2 | Gesellschaft | Die Bewegungsfreiheit wurde stark eingeschränkt. | Freedom of movement was heavily restricted.
+34 | gewährleisten   | to ensure / guarantee | hat gewährleistet   | B2 | Gesellschaft | Der Staat muss Sicherheit gewährleisten.        | The state must ensure security.
+35 | vertreten       | to represent        | hat vertreten         | B2 | Gesellschaft | Sie vertritt die Interessen ihrer Bürger.       | She represents the interests of her citizens.
+36 | beschränken     | to limit            | hat beschränkt        | B2 | Gesellschaft | Der Zugang wurde auf bestimmte Gruppen beschränkt. | Access was limited to certain groups.
+37 | abschaffen      | to abolish          | hat abgeschafft       | B2 | Gesellschaft | Diese Regelung sollte abgeschafft werden.       | This regulation should be abolished.
+38 | einführen       | to introduce / implement | hat eingeführt   | B2 | Gesellschaft | Die neue Steuer wurde letztes Jahr eingeführt.  | The new tax was introduced last year.
+39 | beeinflussen    | to influence        | hat beeinflusst       | B2 | Gesellschaft | Medien beeinflussen unsere Meinung stark.       | The media strongly influences our opinion.
+40 | widerspiegeln   | to reflect          | hat widergespiegelt   | B2 | Gesellschaft | Die Statistik spiegelt die Realität wider.      | The statistic reflects reality.
+
+--- CATEGORY: Wirtschaft (Economy & Business) ---
+
+41 | investieren     | to invest           | hat investiert        | B2 | Wirtschaft| Das Unternehmen investiert in neue Technologien.   | The company is investing in new technologies.
+42 | finanzieren     | to finance          | hat finanziert        | B2 | Wirtschaft| Wie wird das Projekt finanziert?                   | How is the project being financed?
+43 | expandieren     | to expand           | hat expandiert        | B2 | Wirtschaft| Die Firma expandiert in den asiatischen Markt.     | The company is expanding into the Asian market.
+44 | fusionieren     | to merge            | hat fusioniert        | B2 | Wirtschaft| Die beiden Firmen haben fusioniert.                | The two companies have merged.
+45 | konkurrieren    | to compete          | hat konkurriert       | B2 | Wirtschaft| Sie konkurrieren mit internationalen Anbietern.    | They are competing with international providers.
+46 | kalkulieren     | to calculate        | hat kalkuliert        | B2 | Wirtschaft| Das Risiko muss sorgfältig kalkuliert werden.      | The risk needs to be carefully calculated.
+47 | subventionieren | to subsidise        | hat subventioniert    | B2 | Wirtschaft| Der Staat subventioniert erneuerbare Energien.     | The state subsidises renewable energies.
+48 | exportieren     | to export           | hat exportiert        | B2 | Wirtschaft| Deutschland exportiert viele Autos ins Ausland.    | Germany exports many cars abroad.
+49 | importieren     | to import           | hat importiert        | B2 | Wirtschaft| Wir importieren Rohstoffe aus Südamerika.          | We import raw materials from South America.
+50 | steigern        | to increase         | hat gesteigert        | B2 | Wirtschaft| Die Produktivität konnte deutlich gesteigert werden.| Productivity could be significantly increased.
+
+--- CATEGORY: Wissenschaft & Technik (Science & Technology) ---
+
+51 | entwickeln      | to develop          | hat entwickelt        | B2 | Technik   | Wir entwickeln eine neue Software-Lösung.          | We are developing a new software solution.
+52 | erforschen      | to research         | hat erforscht         | B2 | Technik   | Die Ursache der Krankheit wird noch erforscht.     | The cause of the disease is still being researched.
+53 | testen          | to test             | hat getestet          | B2 | Technik   | Das neue System wird gerade getestet.              | The new system is currently being tested.
+54 | implementieren  | to implement        | hat implementiert     | B2 | Technik   | Die Funktion wird nächste Woche implementiert.     | The feature will be implemented next week.
+55 | simulieren      | to simulate         | hat simuliert         | B2 | Technik   | Wir simulieren verschiedene Szenarien.             | We simulate various scenarios.
+56 | automatisieren  | to automate         | hat automatisiert     | B2 | Technik   | Viele Prozesse werden zunehmend automatisiert.     | Many processes are increasingly being automated.
+57 | digitalisieren  | to digitise         | hat digitalisiert     | B2 | Technik   | Das Unternehmen digitalisiert alle Prozesse.       | The company is digitising all processes.
+58 | programmieren   | to programme        | hat programmiert      | B2 | Technik   | Sie programmiert in Python und JavaScript.         | She programmes in Python and JavaScript.
+59 | verifizieren    | to verify           | hat verifiziert       | B2 | Technik   | Die Daten müssen noch verifiziert werden.          | The data still needs to be verified.
+60 | integrieren     | to integrate        | hat integriert        | B2 | Technik   | Die API wurde erfolgreich integriert.              | The API was successfully integrated.
+
+--- CATEGORY: Zwischenmenschlich (Interpersonal) ---
+
+61 | unterstützen    | to support          | hat unterstützt       | B2 | Sozial    | Sie unterstützt ihren Kollegen bei der Aufgabe.    | She supports her colleague with the task.
+62 | verpflichten    | to oblige / commit  | hat verpflichtet      | B2 | Sozial    | Ich habe mich verpflichtet, zu helfen.             | I have committed to helping.
+63 | verzichten      | to give up / forgo  | hat verzichtet        | B2 | Sozial    | Er verzichtet auf Zucker aus gesundheitlichen Gründen. | He gives up sugar for health reasons.
+64 | akzeptieren     | to accept           | hat akzeptiert        | B2 | Sozial    | Ich akzeptiere deine Entscheidung, auch wenn ich anderer Meinung bin. | I accept your decision, even if I think differently.
+65 | respektieren    | to respect          | hat respektiert       | B2 | Sozial    | In einem guten Team respektiert man sich gegenseitig. | In a good team, people respect each other.
+66 | vermeiden       | to avoid            | hat vermieden         | B2 | Sozial    | Ich versuche, Konflikte zu vermeiden.              | I try to avoid conflicts.
+67 | bewältigen      | to cope with / overcome | hat bewältigt     | B2 | Sozial    | Sie hat die schwierige Situation gut bewältigt.    | She coped with the difficult situation well.
+68 | ansprechen      | to address / bring up | hat angesprochen    | B2 | Sozial    | Das Thema sollte direkt angesprochen werden.       | The topic should be addressed directly.
+69 | überbrücken     | to bridge           | hat überbrückt        | B2 | Sozial    | Kulturelle Unterschiede lassen sich überbrücken.   | Cultural differences can be bridged.
+70 | kompromittieren | to compromise       | hat kompromittiert    | B2 | Sozial    | Keine Partei möchte ihre Position kompromittieren. | Neither party wants to compromise their position.
+
+--- CATEGORY: Beschreiben & Erläutern (Describing & Explaining) ---
+
+71 | veranschaulichen| to illustrate       | hat veranschaulicht   | B2 | Beschreiben | Das Diagramm veranschaulicht den Trend sehr gut. | The diagram illustrates the trend very well.
+72 | differenzieren  | to differentiate    | hat differenziert     | B2 | Beschreiben | Man muss hier genau differenzieren.              | One must differentiate carefully here.
+73 | konkretisieren  | to make concrete    | hat konkretisiert     | B2 | Beschreiben | Können Sie das etwas konkretisieren?             | Can you make that a bit more concrete?
+74 | spezifizieren   | to specify          | hat spezifiziert      | B2 | Beschreiben | Die Anforderungen wurden noch nicht spezifiziert. | The requirements have not yet been specified.
+75 | charakterisieren| to characterise     | hat charakterisiert   | B2 | Beschreiben | Wie würden Sie Ihren Arbeitsstil charakterisieren? | How would you characterise your work style?
+76 | illustrieren    | to illustrate       | hat illustriert       | B2 | Beschreiben | Das Beispiel illustriert das Problem perfekt.    | The example perfectly illustrates the problem.
+77 | skizzieren      | to sketch / outline | hat skizziert         | B2 | Beschreiben | Können Sie kurz den Plan skizzieren?             | Can you briefly outline the plan?
+78 | präzisieren     | to be more precise  | hat präzisiert        | B2 | Beschreiben | Ich möchte meinen Standpunkt präzisieren.        | I would like to be more precise about my position.
+79 | ausführen       | to elaborate / carry out | hat ausgeführt   | B2 | Beschreiben | Könnten Sie das etwas ausführlicher erläutern?   | Could you elaborate on that a bit more?
+80 | erläutern       | to explain / elaborate | hat erläutert      | B2 | Beschreiben | Er erläuterte die Hintergründe sehr detailliert. | He explained the background in great detail.
+
+================================================================================
+SECTION 3 — B1 NOUNS (80 Nomen)
+================================================================================
+
+--- CATEGORY: Wohnen & Alltag (Home & Daily Life) ---
+
+01 | die  | Wohnung          | flat / apartment         | B1 | Wohnen      | Ich suche eine günstige Wohnung in der Nähe der U-Bahn.  | I'm looking for an affordable flat near the metro.
+02 | der  | Vermieter        | landlord                 | B1 | Wohnen      | Der Vermieter hat die Miete um 50 Euro erhöht.            | The landlord raised the rent by 50 euros.
+03 | die  | Miete            | rent                     | B1 | Wohnen      | Die Miete ist pünktlich am ersten zu zahlen.              | The rent is due on the first.
+04 | der  | Aufzug           | lift / elevator          | B1 | Wohnen      | Der Aufzug ist leider schon wieder kaputt.                | The lift is unfortunately broken again.
+05 | das  | Treppenhaus      | stairwell                | B1 | Wohnen      | Im Treppenhaus ist es sehr dunkel.                        | It's very dark in the stairwell.
+06 | der  | Nachbar          | neighbour                | B1 | Wohnen      | Mein Nachbar ist sehr laut in der Nacht.                  | My neighbour is very loud at night.
+07 | die  | Heizung          | heating                  | B1 | Wohnen      | Die Heizung funktioniert seit gestern nicht mehr.         | The heating has not been working since yesterday.
+08 | der  | Strom            | electricity              | B1 | Wohnen      | Die Stromrechnung war diesen Monat sehr hoch.             | The electricity bill was very high this month.
+09 | das  | Leitungswasser   | tap water                | B1 | Wohnen      | In Deutschland kann man das Leitungswasser trinken.       | In Germany you can drink tap water.
+10 | der  | Keller           | cellar / basement        | B1 | Wohnen      | Mein Fahrrad steht im Keller.                             | My bicycle is in the cellar.
+
+--- CATEGORY: Einkaufen & Essen (Shopping & Food) ---
+
+11 | das  | Angebot          | offer / deal             | B1 | Einkaufen   | Das ist ein tolles Angebot — nur heute!                   | That's a great offer — today only!
+12 | die  | Quittung         | receipt                  | B1 | Einkaufen   | Kann ich bitte eine Quittung haben?                       | Can I have a receipt please?
+13 | das  | Pfand            | deposit (bottle)         | B1 | Einkaufen   | Das Pfand für diese Flasche beträgt 25 Cent.              | The deposit for this bottle is 25 cents.
+14 | die  | Kasse            | checkout / cashier       | B1 | Einkaufen   | An der Kasse war eine lange Schlange.                     | There was a long queue at the checkout.
+15 | der  | Rabatt           | discount                 | B1 | Einkaufen   | Gibt es einen Rabatt für Studenten?                       | Is there a student discount?
+16 | die  | Zutat            | ingredient               | B1 | Essen        | Welche Zutaten brauche ich für dieses Rezept?             | What ingredients do I need for this recipe?
+17 | das  | Gericht          | dish / course            | B1 | Essen        | Das Tagesgericht ist heute Gulasch.                       | Today's daily dish is goulash.
+18 | die  | Beilage          | side dish                | B1 | Essen        | Möchten Sie Pommes oder Salat als Beilage?                | Would you like chips or salad as a side?
+19 | der  | Aufschnitt       | cold cuts                | B1 | Essen        | Ich nehme ein Brötchen mit Aufschnitt.                    | I'll have a roll with cold cuts.
+20 | das  | Trinkgeld        | tip (gratuity)           | B1 | Essen        | Das Trinkgeld war sehr großzügig.                         | The tip was very generous.
+
+--- CATEGORY: Gesundheit (Health) ---
+
+21 | der  | Hausarzt         | GP / family doctor       | B1 | Gesundheit  | Ich brauche einen Termin bei meinem Hausarzt.             | I need an appointment with my GP.
+22 | das  | Rezept           | prescription             | B1 | Gesundheit  | Ohne Rezept bekomme ich das Medikament nicht.             | I can't get the medication without a prescription.
+23 | die  | Krankenversicherung | health insurance      | B1 | Gesundheit  | In Deutschland ist die Krankenversicherung Pflicht.       | Health insurance is compulsory in Germany.
+24 | die  | Überweisung      | referral                 | B1 | Gesundheit  | Ich brauche eine Überweisung zum Spezialisten.            | I need a referral to a specialist.
+25 | das  | Wartezimmer      | waiting room             | B1 | Gesundheit  | Das Wartezimmer war komplett voll.                        | The waiting room was completely full.
+26 | der  | Termin           | appointment              | B1 | Gesundheit  | Ich habe morgen einen Termin beim Zahnarzt.               | I have a dentist appointment tomorrow.
+27 | die  | Erkältung        | cold (illness)           | B1 | Gesundheit  | Ich habe eine schlimme Erkältung erwischt.                | I've caught a bad cold.
+28 | das  | Fieber           | fever                    | B1 | Gesundheit  | Das Kind hat 39 Grad Fieber.                              | The child has a fever of 39 degrees.
+29 | die  | Schmerzen (pl.)  | pain                     | B1 | Gesundheit  | Ich habe starke Schmerzen im Rücken.                      | I have severe pain in my back.
+30 | das  | Medikament       | medication               | B1 | Gesundheit  | Nehmen Sie das Medikament dreimal täglich.                | Take the medication three times a day.
+
+--- CATEGORY: Arbeit & Bildung (Work & Education) ---
+
+31 | die  | Stelle           | job / position           | B1 | Arbeit      | Ich habe mich auf eine Stelle als Entwickler beworben.    | I applied for a position as a developer.
+32 | das  | Gehalt           | salary                   | B1 | Arbeit      | Das Gehalt wird jeden Monat überwiesen.                   | The salary is transferred every month.
+33 | der  | Urlaub           | holiday / annual leave   | B1 | Arbeit      | Ich nehme nächste Woche Urlaub.                           | I'm taking holiday next week.
+34 | die  | Überstunden (pl.)| overtime                 | B1 | Arbeit      | Diese Woche muss ich viele Überstunden machen.            | I have to do a lot of overtime this week.
+35 | das  | Vorstellungsgespräch | job interview         | B1 | Arbeit      | Mein Vorstellungsgespräch ist am Donnerstag.              | My job interview is on Thursday.
+36 | die  | Ausbildung       | vocational training      | B1 | Bildung     | Er macht eine Ausbildung zum Informatiker.                | He is doing vocational training as an IT specialist.
+37 | das  | Zeugnis          | certificate / report     | B1 | Bildung     | Ich brauche mein Abschlusszeugnis für die Bewerbung.      | I need my graduation certificate for the application.
+38 | die  | Bewerbung        | job application          | B1 | Arbeit      | Meine Bewerbung war leider nicht erfolgreich.             | My application was unfortunately not successful.
+39 | der  | Lebenslauf       | CV / résumé              | B1 | Arbeit      | Ich aktualisiere gerade meinen Lebenslauf.                | I am currently updating my CV.
+40 | die  | Fähigkeit        | skill / ability          | B1 | Arbeit      | Teamarbeit ist eine wichtige Fähigkeit.                   | Teamwork is an important skill.
+
+--- CATEGORY: Transport & Mobilität ---
+
+41 | die  | Haltestelle      | stop (bus/tram)          | B1 | Transport   | Die nächste Haltestelle ist in zwei Minuten.              | The next stop is in two minutes.
+42 | der  | Fahrschein       | ticket (transport)       | B1 | Transport   | Haben Sie Ihren Fahrschein dabei?                         | Do you have your ticket with you?
+43 | die  | Verspätung       | delay                    | B1 | Transport   | Der Zug hat 20 Minuten Verspätung.                        | The train is 20 minutes late.
+44 | der  | Anschluss        | connection (transport)   | B1 | Transport   | Ich habe meinen Anschluss verpasst.                       | I missed my connection.
+45 | das  | Gleis            | platform / track         | B1 | Transport   | Der Zug fährt auf Gleis 7 ab.                             | The train departs from platform 7.
+46 | die  | Fahrt            | journey / ride           | B1 | Transport   | Die Fahrt dauert ungefähr eine Stunde.                    | The journey takes approximately one hour.
+47 | der  | Stau             | traffic jam              | B1 | Transport   | Auf der A40 gibt es mal wieder einen langen Stau.         | There's another long traffic jam on the A40.
+48 | das  | Navi             | sat-nav / GPS            | B1 | Transport   | Das Navi sagt, wir sollen links abbiegen.                 | The sat-nav says we should turn left.
+49 | die  | Tankstelle       | petrol station           | B1 | Transport   | Wir müssen an der nächsten Tankstelle anhalten.           | We need to stop at the next petrol station.
+50 | der  | Führerschein     | driving licence          | B1 | Transport   | Ohne Führerschein darf man kein Auto fahren.              | You can't drive a car without a driving licence.
+
+--- CATEGORY: Freizeit & Kultur (Leisure & Culture) ---
+
+51 | die  | Veranstaltung    | event                    | B1 | Freizeit    | Gibt es diese Woche interessante Veranstaltungen?         | Are there any interesting events this week?
+52 | der  | Verein           | club / association       | B1 | Freizeit    | Ich bin Mitglied in einem Sportverein.                    | I am a member of a sports club.
+53 | die  | Ausstellung      | exhibition               | B1 | Kultur      | Die Ausstellung im Museum ist sehr sehenswert.            | The exhibition at the museum is very worth seeing.
+54 | die  | Eintrittskarte   | entrance ticket          | B1 | Freizeit    | Zwei Eintrittskarten für das Konzert bitte.               | Two entrance tickets for the concert please.
+55 | das  | Hobby            | hobby                    | B1 | Freizeit    | Mein Hobby ist Fotografieren und Radfahren.               | My hobby is photography and cycling.
+56 | die  | Mannschaft       | team                     | B1 | Freizeit    | Unsere Mannschaft hat das Spiel gewonnen.                 | Our team won the game.
+57 | das  | Ergebnis         | result / score           | B1 | Freizeit    | Das Ergebnis war 2:1 für uns.                             | The result was 2:1 for us.
+58 | der  | Spieler          | player                   | B1 | Freizeit    | Der beste Spieler hat drei Tore geschossen.               | The best player scored three goals.
+59 | die  | Verabredung      | appointment / date       | B1 | Freizeit    | Ich habe morgen Abend eine Verabredung.                   | I have a date tomorrow evening.
+60 | die  | Feier            | celebration / party      | B1 | Freizeit    | Die Geburtstagsfeier war wunderbar.                       | The birthday celebration was wonderful.
+
+--- CATEGORY: Gesellschaft & Verwaltung (Society & Admin) ---
+
+61 | der  | Ausweis          | ID card                  | B1 | Verwaltung  | Ohne Ausweis komme ich nicht rein.                        | Without an ID I can't get in.
+62 | das  | Formular         | form                     | B1 | Verwaltung  | Bitte füllen Sie das Formular vollständig aus.            | Please fill in the form completely.
+63 | die  | Behörde          | authority / office       | B1 | Verwaltung  | Die Behörde braucht Originaldokumente.                    | The authority requires original documents.
+64 | die  | Genehmigung      | permit / approval        | B1 | Verwaltung  | Für den Umbau brauche ich eine Genehmigung.               | I need a permit for the renovation.
+65 | der  | Bescheid         | official notice          | B1 | Verwaltung  | Ich warte noch auf den Bescheid vom Amt.                  | I'm still waiting for the official notice from the office.
+66 | die  | Frist            | deadline                 | B1 | Verwaltung  | Die Frist für die Bewerbung ist der 31. Mai.              | The application deadline is 31st May.
+67 | die  | Gebühr           | fee / charge             | B1 | Verwaltung  | Die Bearbeitungsgebühr beträgt 30 Euro.                   | The processing fee is 30 euros.
+68 | das  | Konto            | account (bank)           | B1 | Finanzen    | Ich möchte ein Konto bei Ihrer Bank eröffnen.             | I'd like to open an account at your bank.
+69 | die  | Überweisung      | bank transfer            | B1 | Finanzen    | Die Überweisung sollte morgen ankommen.                   | The transfer should arrive tomorrow.
+70 | der  | Vertrag          | contract                 | B1 | Verwaltung  | Ich habe den Mietvertrag sorgfältig gelesen.              | I read the rental contract carefully.
+
+--- CATEGORY: Menschen & Beziehungen (People & Relationships) ---
+
+71 | der  | Bekannte         | acquaintance             | B1 | Beziehungen | Ich habe einen Bekannten aus dem Verein getroffen.        | I met an acquaintance from the club.
+72 | die  | Beziehung        | relationship             | B1 | Beziehungen | Wir haben eine sehr gute Arbeitsbeziehung.                | We have a very good working relationship.
+73 | das  | Gespräch         | conversation             | B1 | Beziehungen | Das Gespräch mit dem Chef war sehr produktiv.             | The conversation with the boss was very productive.
+74 | der  | Streit           | argument / dispute       | B1 | Beziehungen | Wir hatten einen kleinen Streit, aber alles ist okay.     | We had a small argument, but everything is okay.
+75 | die  | Einladung        | invitation               | B1 | Beziehungen | Vielen Dank für die Einladung!                            | Thank you very much for the invitation!
+76 | das  | Vertrauen        | trust                    | B1 | Beziehungen | Vertrauen ist die Grundlage jeder guten Beziehung.        | Trust is the foundation of every good relationship.
+77 | die  | Freundschaft     | friendship               | B1 | Beziehungen | Echte Freundschaft hält auch schwierige Zeiten durch.     | True friendship survives difficult times too.
+78 | die  | Meinungsverschiedenheit | disagreement        | B1 | Beziehungen | Wir haben eine kleine Meinungsverschiedenheit gehabt.     | We had a small disagreement.
+79 | der  | Kollege          | (male) colleague         | B1 | Arbeit      | Mein Kollege hilft mir immer, wenn ich ein Problem habe.  | My colleague always helps me when I have a problem.
+80 | die  | Kollegin         | (female) colleague       | B1 | Arbeit      | Meine Kollegin ist sehr kompetent und freundlich.         | My colleague is very competent and friendly.
+
+================================================================================
+SECTION 4 — B2 NOUNS (80 Nomen)
+================================================================================
+
+--- CATEGORY: Wirtschaft & Karriere (Economy & Career) ---
+
+01 | die  | Unternehmenskultur  | company culture        | B2 | Karriere    | Die Unternehmenskultur ist entscheidend für die Motivation. | Company culture is crucial for motivation.
+02 | der  | Umsatz              | revenue / turnover     | B2 | Wirtschaft  | Der Umsatz ist im dritten Quartal gestiegen.              | Revenue increased in the third quarter.
+03 | die  | Gewinnspanne        | profit margin          | B2 | Wirtschaft  | Die Gewinnspanne ist in diesem Bereich sehr gering.       | The profit margin in this area is very slim.
+04 | das  | Geschäftsmodell     | business model         | B2 | Wirtschaft  | Das Geschäftsmodell basiert auf Abonnements.              | The business model is based on subscriptions.
+05 | die  | Fachkraft           | skilled worker         | B2 | Karriere    | Deutschland sucht dringend qualifizierte Fachkräfte.      | Germany urgently needs qualified skilled workers.
+06 | die  | Kernkompetenz       | core competency        | B2 | Karriere    | Was ist Ihre Kernkompetenz als Entwickler?                | What is your core competency as a developer?
+07 | das  | Netzwerk            | network                | B2 | Karriere    | Ein gutes berufliches Netzwerk ist sehr wertvoll.         | A good professional network is very valuable.
+08 | die  | Wettbewerbsfähigkeit| competitiveness        | B2 | Wirtschaft  | Die Wettbewerbsfähigkeit der Firma hat zugenommen.        | The company's competitiveness has increased.
+09 | der  | Marktanteil         | market share           | B2 | Wirtschaft  | Der Marktanteil wurde in zwei Jahren verdoppelt.          | The market share was doubled in two years.
+10 | die  | Qualifikation       | qualification          | B2 | Karriere    | Welche Qualifikationen bringen Sie mit?                   | What qualifications do you bring with you?
+
+--- CATEGORY: Gesellschaft & Politik (Society & Politics) ---
+
+11 | die  | Chancengleichheit   | equal opportunity      | B2 | Gesellschaft| Chancengleichheit sollte in allen Bereichen gelten.       | Equal opportunity should apply in all areas.
+12 | die  | Diskriminierung     | discrimination         | B2 | Gesellschaft| Diskriminierung am Arbeitsplatz ist gesetzlich verboten.  | Discrimination in the workplace is prohibited by law.
+13 | die  | Nachhaltigkeit      | sustainability         | B2 | Gesellschaft| Nachhaltigkeit ist ein wichtiges Unternehmensthema.       | Sustainability is an important business topic.
+14 | das  | Bewusstsein         | awareness / consciousness | B2 | Gesellschaft | Das Bewusstsein für Umweltfragen wächst.               | Awareness of environmental issues is growing.
+15 | die  | Bevölkerung         | population             | B2 | Gesellschaft| Die Bevölkerung Deutschlands wächst durch Zuwanderung.    | Germany's population grows through immigration.
+16 | der  | Bürger              | citizen                | B2 | Gesellschaft| Jeder Bürger hat das Recht auf faire Behandlung.          | Every citizen has the right to fair treatment.
+17 | die  | Gesetzgebung        | legislation            | B2 | Politik     | Die neue Gesetzgebung tritt im Januar in Kraft.           | The new legislation comes into effect in January.
+18 | der  | Kompromiss          | compromise             | B2 | Politik     | Die Parteien haben sich auf einen Kompromiss geeinigt.    | The parties agreed on a compromise.
+19 | die  | Demokratie          | democracy              | B2 | Politik     | Eine funktionierende Demokratie braucht freie Medien.     | A functioning democracy needs free media.
+20 | das  | Grundgesetz         | Basic Law (German constitution) | B2 | Politik | Das Grundgesetz garantiert die Meinungsfreiheit.       | The Basic Law guarantees freedom of opinion.
+
+--- CATEGORY: Wissenschaft & Forschung (Science & Research) ---
+
+21 | die  | Hypothese           | hypothesis             | B2 | Wissenschaft| Diese Hypothese muss noch bewiesen werden.                | This hypothesis still needs to be proven.
+22 | die  | Studie              | study / research paper | B2 | Wissenschaft| Laut einer aktuellen Studie nimmt der Stress zu.          | According to a recent study, stress is increasing.
+23 | das  | Ergebnis            | result / finding       | B2 | Wissenschaft| Die Ergebnisse der Forschung sind überraschend.           | The research findings are surprising.
+24 | die  | Methode             | method                 | B2 | Wissenschaft| Welche Methode wurde für die Analyse verwendet?           | Which method was used for the analysis?
+25 | die  | Theorie             | theory                 | B2 | Wissenschaft| Die Theorie wird durch die Daten gestützt.                | The theory is supported by the data.
+26 | der  | Fortschritt         | progress               | B2 | Wissenschaft| Der technologische Fortschritt ist beeindruckend.         | Technological progress is impressive.
+27 | das  | Experiment          | experiment             | B2 | Wissenschaft| Das Experiment wurde unter kontrollierten Bedingungen durchgeführt. | The experiment was conducted under controlled conditions.
+28 | die  | Schlussfolgerung    | conclusion             | B2 | Wissenschaft| Die Schlussfolgerung ist eindeutig und klar.              | The conclusion is clear and unambiguous.
+29 | der  | Beweis              | proof / evidence       | B2 | Wissenschaft| Für diese Aussage fehlt der wissenschaftliche Beweis.     | This claim lacks scientific evidence.
+30 | die  | Forschung           | research               | B2 | Wissenschaft| In diesem Bereich ist noch viel Forschung nötig.          | Much more research is still needed in this area.
+
+--- CATEGORY: Medien & Kommunikation (Media & Communication) ---
+
+31 | die  | Berichterstattung   | reporting / coverage   | B2 | Medien      | Die Berichterstattung über das Thema war sehr einseitig.  | The reporting on the topic was very one-sided.
+32 | die  | Glaubwürdigkeit     | credibility            | B2 | Medien      | Die Glaubwürdigkeit dieser Quelle ist fraglich.           | The credibility of this source is questionable.
+33 | die  | Meinungsfreiheit    | freedom of speech      | B2 | Medien      | Meinungsfreiheit hat dort klare rechtliche Grenzen.       | Freedom of speech has clear legal limits there.
+34 | das  | Vorurteil           | prejudice              | B2 | Gesellschaft| Vorurteile entstehen oft durch mangelnde Information.     | Prejudices often arise from a lack of information.
+35 | die  | Transparenz         | transparency           | B2 | Medien      | Mehr Transparenz würde das Vertrauen stärken.             | More transparency would strengthen trust.
+36 | die  | Desinformation      | disinformation         | B2 | Medien      | Desinformation ist eine ernste Bedrohung für die Demokratie. | Disinformation is a serious threat to democracy.
+37 | der  | Algorithmus         | algorithm              | B2 | Technik     | Der Algorithmus sortiert die Ergebnisse nach Relevanz.    | The algorithm sorts results by relevance.
+38 | die  | Datenschutz         | data protection        | B2 | Technik     | Datenschutz ist in Deutschland sehr ernst zu nehmen.      | Data protection must be taken very seriously in Germany.
+39 | die  | Reichweite          | reach / range          | B2 | Medien      | Die Reichweite des Artikels war enorm.                    | The reach of the article was enormous.
+40 | der  | Influencer          | influencer             | B2 | Medien      | Manche Influencer haben mehr Einfluss als Journalisten.   | Some influencers have more influence than journalists.
+
+--- CATEGORY: Umwelt & Zukunft (Environment & Future) ---
+
+41 | der  | Klimawandel         | climate change         | B2 | Umwelt      | Der Klimawandel betrifft uns alle weltweit.               | Climate change affects all of us globally.
+42 | die  | Treibhausgase (pl.) | greenhouse gases       | B2 | Umwelt      | Die Treibhausgase müssen drastisch reduziert werden.      | Greenhouse gases must be drastically reduced.
+43 | die  | Energiewende        | energy transition      | B2 | Umwelt      | Die Energiewende ist politisch sehr umstritten.           | The energy transition is very politically contested.
+44 | der  | Rohstoff            | raw material           | B2 | Wirtschaft  | Deutschland importiert viele Rohstoffe aus dem Ausland.   | Germany imports many raw materials from abroad.
+45 | die  | Erneuerbare Energien| renewable energies     | B2 | Umwelt      | Erneuerbare Energien decken jetzt 50% des Bedarfs.        | Renewable energies now cover 50% of demand.
+46 | das  | Ökosystem           | ecosystem              | B2 | Umwelt      | Das Ökosystem des Regenwaldes ist sehr fragil.            | The rainforest ecosystem is very fragile.
+47 | die  | Ressource           | resource               | B2 | Umwelt      | Wasser ist eine der wertvollsten Ressourcen.              | Water is one of the most valuable resources.
+48 | der  | Fußabdruck          | footprint              | B2 | Umwelt      | Ich versuche, meinen CO2-Fußabdruck zu reduzieren.        | I try to reduce my CO2 footprint.
+49 | die  | Biodiversität       | biodiversity           | B2 | Umwelt      | Der Verlust der Biodiversität ist alarmierend.            | The loss of biodiversity is alarming.
+50 | die  | Infrastruktur       | infrastructure         | B2 | Gesellschaft| Die digitale Infrastruktur in Deutschland hinkt hinterher.| Germany's digital infrastructure is lagging behind.
+
+--- CATEGORY: Psychologie & Persönlichkeit (Psychology & Personality) ---
+
+51 | die  | Belastbarkeit       | resilience             | B2 | Psychologie | Belastbarkeit ist eine entscheidende Eigenschaft im Job.  | Resilience is a crucial quality in the job.
+52 | die  | Eigenmotivation     | self-motivation        | B2 | Psychologie | Eigenmotivation ist wichtiger als externe Anreize.        | Self-motivation is more important than external incentives.
+53 | das  | Selbstbewusstsein   | self-confidence        | B2 | Psychologie | Ein gesundes Selbstbewusstsein hilft im Berufsalltag.     | Healthy self-confidence helps in professional life.
+54 | die  | Empathie            | empathy                | B2 | Psychologie | Empathie ist eine wichtige soziale Kompetenz.             | Empathy is an important social skill.
+55 | die  | Perspektive         | perspective            | B2 | Psychologie | Man sollte Dinge aus verschiedenen Perspektiven sehen.    | One should look at things from different perspectives.
+56 | das  | Wohlbefinden        | well-being             | B2 | Psychologie | Das Wohlbefinden der Mitarbeiter steht an erster Stelle.  | Employee well-being comes first.
+57 | die  | Frustrationstoleranz| frustration tolerance  | B2 | Psychologie | Eine hohe Frustrationstoleranz ist im Kundenkontakt wichtig. | High frustration tolerance is important in customer contact.
+58 | die  | Konfliktfähigkeit   | ability to handle conflict | B2 | Psychologie | Konfliktfähigkeit ist im Teamumfeld unverzichtbar.     | The ability to handle conflict is essential in team environments.
+59 | das  | Mindset             | mindset                | B2 | Psychologie | Ein positives Mindset macht den Unterschied.              | A positive mindset makes the difference.
+60 | die  | Stärke              | strength               | B2 | Psychologie | Jeder Mensch hat eigene Stärken und Schwächen.            | Every person has their own strengths and weaknesses.
+
+--- CATEGORY: Recht & Ordnung (Law & Order) ---
+
+61 | das  | Grundrecht          | fundamental right      | B2 | Recht       | Das Grundrecht auf Bildung gilt für alle Kinder.          | The fundamental right to education applies to all children.
+62 | die  | Haftung             | liability              | B2 | Recht       | Die Haftung liegt beim Hersteller des Produkts.           | Liability lies with the manufacturer of the product.
+63 | der  | Anspruch            | claim / entitlement    | B2 | Recht       | Sie haben Anspruch auf 30 Tage Urlaub pro Jahr.           | You are entitled to 30 days of leave per year.
+64 | die  | Voraussetzung       | requirement / prerequisite | B2 | Recht    | Was sind die Voraussetzungen für diesen Antrag?           | What are the requirements for this application?
+65 | der  | Datenschutz         | data protection        | B2 | Recht       | Datenschutz ist in Deutschland gesetzlich geregelt.       | Data protection is legally regulated in Germany.
+66 | die  | Rechtsgrundlage     | legal basis            | B2 | Recht       | Die Rechtsgrundlage dafür ist Artikel 14 des Grundgesetzes.| The legal basis for this is Article 14 of the Basic Law.
+67 | der  | Widerspruch         | objection / contradiction | B2 | Recht     | Ich lege Widerspruch gegen diesen Bescheid ein.           | I am filing an objection against this notice.
+68 | die  | Sorgfaltspflicht    | duty of care           | B2 | Recht       | Der Arzt hat seine Sorgfaltspflicht verletzt.             | The doctor violated his duty of care.
+69 | der  | Schadensersatz      | compensation / damages | B2 | Recht       | Sie fordert Schadensersatz für den entstandenen Schaden.  | She is demanding compensation for the damage caused.
+70 | die  | Klage               | lawsuit / complaint    | B2 | Recht       | Er hat eine Klage gegen die Firma eingereicht.            | He filed a lawsuit against the company.
+
+--- CATEGORY: Philosophie & Abstrakt (Philosophy & Abstract) ---
+
+71 | der  | Grundsatz           | principle              | B2 | Abstrakt    | Das ist ein Grundsatz, von dem ich nicht abweiche.        | That is a principle I don't deviate from.
+72 | die  | Konsequenz          | consequence            | B2 | Abstrakt    | Jede Entscheidung hat ihre Konsequenzen.                  | Every decision has its consequences.
+73 | die  | Ambiguität          | ambiguity              | B2 | Abstrakt    | Die Ambiguität dieser Aussage macht sie schwer interpretierbar. | The ambiguity of this statement makes it hard to interpret.
+74 | der  | Widerspruch         | contradiction          | B2 | Abstrakt    | Da liegt ein logischer Widerspruch vor.                   | There is a logical contradiction here.
+75 | das  | Gleichgewicht       | balance / equilibrium  | B2 | Abstrakt    | Ein gutes Gleichgewicht zwischen Arbeit und Freizeit ist wichtig. | A good work-life balance is important.
+76 | die  | Kontinuität         | continuity             | B2 | Abstrakt    | Kontinuität ist wichtig für den Lernerfolg.               | Continuity is important for learning success.
+77 | die  | Komplexität         | complexity             | B2 | Abstrakt    | Die Komplexität des Problems wird oft unterschätzt.       | The complexity of the problem is often underestimated.
+78 | der  | Ausgangspunkt       | starting point         | B2 | Abstrakt    | Was ist der Ausgangspunkt Ihrer Analyse?                  | What is the starting point of your analysis?
+79 | die  | Tendenz             | tendency / trend       | B2 | Abstrakt    | Es gibt eine klare Tendenz hin zur Digitalisierung.       | There is a clear trend towards digitalisation.
+80 | die  | Relevanz            | relevance              | B2 | Abstrakt    | Die Relevanz dieses Themas ist nicht zu unterschätzen.    | The relevance of this topic should not be underestimated.
+
+================================================================================
+SECTION 5 — B1 ADJECTIVES (50 Adjektive)
+================================================================================
+
+FORMAT: german | english | level | category | exampleDe | exampleEn
+
+01 | günstig        | affordable / favourable  | B1 | Alltag      | Diese Wohnung ist sehr günstig für die Lage.             | This flat is very affordable for the location.
+02 | nützlich       | useful                   | B1 | Alltag      | Dieses Tool ist wirklich sehr nützlich.                  | This tool is really very useful.
+03 | pünktlich      | punctual / on time       | B1 | Arbeit      | Bitte sei morgen pünktlich zum Meeting.                  | Please be on time for the meeting tomorrow.
+04 | zuverlässig    | reliable                 | B1 | Arbeit      | Er ist ein sehr zuverlässiger Mitarbeiter.               | He is a very reliable employee.
+05 | freundlich     | friendly                 | B1 | Sozial      | Die Nachbarn sind sehr freundlich und hilfsbereit.       | The neighbours are very friendly and helpful.
+06 | geduldig       | patient                  | B1 | Sozial      | Man muss beim Deutschlernen geduldig sein.               | You have to be patient when learning German.
+07 | neugierig      | curious                  | B1 | Persönlichkeit| Er ist sehr neugierig und stellt viele Fragen.          | He is very curious and asks lots of questions.
+08 | selbstständig  | independent              | B1 | Arbeit      | Sie arbeitet sehr selbstständig und braucht kaum Anleitung. | She works very independently and needs little guidance.
+09 | bereit         | ready / willing          | B1 | Alltag      | Ich bin bereit, Überstunden zu machen falls nötig.       | I am willing to do overtime if necessary.
+10 | beschäftigt    | busy                     | B1 | Alltag      | Diese Woche bin ich besonders beschäftigt.               | This week I am especially busy.
+11 | müde           | tired                    | B1 | Gefühle     | Ich bin heute total müde — ich konnte nicht gut schlafen.| I'm completely tired today — I couldn't sleep well.
+12 | aufgeregt      | excited / nervous        | B1 | Gefühle     | Ich bin aufgeregt wegen des Vorstellungsgesprächs.       | I'm nervous about the job interview.
+13 | stolz          | proud                    | B1 | Gefühle     | Ich bin sehr stolz auf meine Fortschritte.               | I'm very proud of my progress.
+14 | enttäuscht     | disappointed             | B1 | Gefühle     | Er war sehr enttäuscht von dem Ergebnis.                 | He was very disappointed by the result.
+15 | erleichtert    | relieved                 | B1 | Gefühle     | Ich bin so erleichtert, dass alles gut gegangen ist.     | I'm so relieved that everything went well.
+16 | wichtig        | important                | B1 | Alltag      | Pünktlichkeit ist in Deutschland sehr wichtig.           | Punctuality is very important in Germany.
+17 | notwendig      | necessary                | B1 | Alltag      | Ein Reisepass ist für diese Reise notwendig.             | A passport is necessary for this trip.
+18 | möglich        | possible                 | B1 | Alltag      | Ist es möglich, den Termin zu verschieben?               | Is it possible to reschedule the appointment?
+19 | persönlich     | personal                 | B1 | Sozial      | Das ist eine sehr persönliche Frage.                     | That is a very personal question.
+20 | regelmäßig     | regular / regularly      | B1 | Alltag      | Ich trainiere regelmäßig, mindestens dreimal pro Woche.  | I train regularly, at least three times a week.
+21 | schwierig      | difficult                | B1 | Alltag      | Die Grammatik ist manchmal schwierig zu verstehen.       | The grammar is sometimes difficult to understand.
+22 | einfach        | simple / easy            | B1 | Alltag      | Die Aufgabe war einfacher als ich dachte.                | The task was easier than I thought.
+23 | teuer          | expensive                | B1 | Alltag      | Die Miete in München ist sehr teuer.                     | Rent in Munich is very expensive.
+24 | praktisch      | practical                | B1 | Alltag      | Das Monatsticket ist sehr praktisch für den Alltag.      | The monthly pass is very practical for daily life.
+25 | angenehm       | pleasant / comfortable   | B1 | Gefühle     | Das Gespräch war sehr angenehm und entspannt.            | The conversation was very pleasant and relaxed.
+26 | sauber         | clean                    | B1 | Alltag      | Die Wohnung ist sehr sauber und gepflegt.                | The flat is very clean and well-kept.
+27 | ordentlich     | tidy / proper            | B1 | Alltag      | Bitte hinterlasse die Küche ordentlich.                  | Please leave the kitchen tidy.
+28 | deutlich       | clear / distinct         | B1 | Kommunikation| Bitte sprechen Sie etwas deutlicher.                    | Please speak a little more clearly.
+29 | offen          | open                     | B1 | Persönlichkeit| Er ist sehr offen für neue Ideen.                       | He is very open to new ideas.
+30 | ruhig          | calm / quiet             | B1 | Gefühle     | Bleib ruhig — alles wird gut.                            | Stay calm — everything will be fine.
+31 | sicher         | safe / certain           | B1 | Alltag      | Bist du sicher, dass das richtig ist?                    | Are you sure that's correct?
+32 | kostenlos      | free of charge           | B1 | Alltag      | Der Eintritt ist heute kostenlos.                        | Entry is free of charge today.
+33 | öffentlich     | public                   | B1 | Gesellschaft| Das öffentliche Verkehrsnetz ist sehr gut ausgebaut.     | The public transport network is very well developed.
+34 | privat         | private                  | B1 | Alltag      | Das ist meine private Meinung, keine offizielle.         | That is my private opinion, not an official one.
+35 | gesund         | healthy                  | B1 | Gesundheit  | Eine ausgewogene Ernährung ist gesund.                   | A balanced diet is healthy.
+36 | krank          | ill / sick               | B1 | Gesundheit  | Ich war letzte Woche krank und bin zu Hause geblieben.   | I was ill last week and stayed home.
+37 | zufrieden      | satisfied / content      | B1 | Gefühle     | Ich bin sehr zufrieden mit meiner neuen Arbeit.          | I am very satisfied with my new job.
+38 | berühmt        | famous                   | B1 | Kultur      | Duisburg ist berühmt für seinen großen Binnenhafen.      | Duisburg is famous for its large inland port.
+39 | typisch        | typical                  | B1 | Kultur      | Das ist typisch deutsch — immer sehr direkt.             | That's typically German — always very direct.
+40 | ehrlich        | honest                   | B1 | Persönlichkeit| Ich schätze Menschen, die ehrlich mit mir sind.         | I appreciate people who are honest with me.
+41 | gründlich      | thorough                 | B1 | Arbeit      | Er arbeitet immer sehr gründlich und sorgfältig.         | He always works very thoroughly and carefully.
+42 | flexibel       | flexible                 | B1 | Arbeit      | Sind Sie bereit, flexibel zu arbeiten?                   | Are you willing to work flexibly?
+43 | nebenberuflich | part-time / on the side  | B1 | Arbeit      | Er arbeitet nebenberuflich als Übersetzer.               | He works as a translator on the side.
+44 | verfügbar      | available                | B1 | Alltag      | Wann sind Sie für ein Gespräch verfügbar?                | When are you available for a conversation?
+45 | verschieden    | different / various      | B1 | Alltag      | Die Meinungen dazu sind sehr verschieden.                | Opinions on this vary greatly.
+46 | aktuell        | current / up-to-date     | B1 | Alltag      | Haben Sie die aktuellen Nachrichten gelesen?             | Have you read the current news?
+47 | gemeinsam      | together / shared        | B1 | Sozial      | Wir lösen das Problem gemeinsam.                         | We'll solve the problem together.
+48 | sofort         | immediately              | B1 | Alltag      | Ich komme sofort — eine Minute noch.                     | I'll be right there — just one more minute.
+49 | gelegentlich   | occasionally             | B1 | Alltag      | Ich gehe gelegentlich ins Kino.                          | I occasionally go to the cinema.
+50 | täglich        | daily                    | B1 | Alltag      | Ich übe täglich mindestens 30 Minuten Deutsch.           | I practice German daily for at least 30 minutes.
+
+================================================================================
+SECTION 6 — B2 ADJECTIVES (50 Adjektive)
+================================================================================
+
+01 | nachhaltig     | sustainable              | B2 | Umwelt      | Wir brauchen nachhaltigere Lösungen für den Klimawandel. | We need more sustainable solutions for climate change.
+02 | bemerkenswert  | remarkable               | B2 | Beschreiben | Seine Leistung war wirklich bemerkenswert.               | His performance was truly remarkable.
+03 | umfangreich    | extensive / comprehensive| B2 | Beschreiben | Das ist ein sehr umfangreiches Dokument.                 | That is a very comprehensive document.
+04 | weitreichend   | far-reaching             | B2 | Politik     | Die Entscheidung hat weitreichende Konsequenzen.         | The decision has far-reaching consequences.
+05 | kontrovers     | controversial            | B2 | Gesellschaft| Das ist ein sehr kontroverses Thema in der Politik.      | This is a very controversial topic in politics.
+06 | tiefgreifend   | profound / far-reaching  | B2 | Abstrakt    | Der Wandel ist tiefgreifend und nicht reversibel.        | The change is profound and not reversible.
+07 | ausschlaggebend| decisive / determining   | B2 | Arbeit      | Das war der ausschlaggebende Faktor für unsere Entscheidung. | That was the decisive factor in our decision.
+08 | überwältigend  | overwhelming             | B2 | Gefühle     | Die Resonanz auf die Kampagne war überwältigend.         | The response to the campaign was overwhelming.
+09 | geringfügig    | minor / marginal         | B2 | Beschreiben | Die Unterschiede zwischen den Versionen sind geringfügig.| The differences between the versions are minor.
+10 | erheblich      | considerable / significant| B2 | Beschreiben | Das hat zu einer erheblichen Verbesserung geführt.       | This led to a considerable improvement.
+11 | vorläufig      | provisional / temporary  | B2 | Verwaltung  | Das ist nur eine vorläufige Lösung.                      | This is only a provisional solution.
+12 | grundlegend    | fundamental / basic      | B2 | Abstrakt    | Das ist eine grundlegende Änderung der Strategie.        | This is a fundamental change of strategy.
+13 | unvermeidlich  | inevitable               | B2 | Abstrakt    | Fehler sind beim Lernen unvermeidlich.                   | Mistakes are inevitable when learning.
+14 | anspruchsvoll  | demanding / sophisticated| B2 | Arbeit      | Das ist eine anspruchsvolle Aufgabe, aber machbar.       | This is a demanding task, but doable.
+15 | ausgeprägt     | pronounced / strong      | B2 | Persönlichkeit| Sie hat ein ausgeprägtes Gespür für Zahlen.             | She has a pronounced feel for numbers.
+16 | eigenverantwortlich | self-responsible    | B2 | Arbeit      | Er arbeitet sehr eigenverantwortlich.                    | He works very self-responsibly.
+17 | interdisziplinär | interdisciplinary      | B2 | Wissenschaft| Das Projekt ist sehr interdisziplinär angelegt.          | The project is set up in a very interdisciplinary way.
+18 | maßgeblich     | decisive / authoritative | B2 | Abstrakt    | Er hat maßgeblich zum Erfolg beigetragen.                | He made a decisive contribution to the success.
+19 | stringent      | stringent / strict       | B2 | Arbeit      | Die Qualitätskontrolle ist sehr stringent.               | Quality control is very stringent.
+20 | kohärent       | coherent                 | B2 | Kommunikation| Bitte stellen Sie sicher, dass der Text kohärent ist.   | Please make sure the text is coherent.
+21 | plausibel      | plausible                | B2 | Analyse     | Das klingt sehr plausibel — ich stimme zu.               | That sounds very plausible — I agree.
+22 | objektiv       | objective                | B2 | Analyse     | Man muss versuchen, objektiv zu bleiben.                 | One must try to remain objective.
+23 | subjektiv      | subjective               | B2 | Analyse     | Das ist natürlich eine subjektive Einschätzung.          | That is of course a subjective assessment.
+24 | differenziert  | nuanced / differentiated | B2 | Kommunikation| Er analysiert Probleme sehr differenziert.              | He analyses problems in a very nuanced way.
+25 | exemplarisch   | exemplary                | B2 | Beschreiben | Das ist ein exemplarisches Beispiel für gute Führung.    | This is an exemplary example of good leadership.
+26 | innovativ      | innovative               | B2 | Technik     | Das Unternehmen ist für seine innovativen Produkte bekannt. | The company is known for its innovative products.
+27 | transparent    | transparent              | B2 | Gesellschaft| Die Kommunikation im Team sollte immer transparent sein. | Communication in the team should always be transparent.
+28 | kritisch       | critical                 | B2 | Analyse     | Es ist wichtig, kritisch zu denken.                      | It is important to think critically.
+29 | konstruktiv    | constructive             | B2 | Arbeit      | Bitte geben Sie konstruktives Feedback.                  | Please give constructive feedback.
+30 | ambivalent     | ambivalent               | B2 | Gefühle     | Ich bin ambivalent, was diese Entscheidung angeht.       | I feel ambivalent about this decision.
+31 | pragmatisch    | pragmatic                | B2 | Persönlichkeit| Sie hat einen pragmatischen Ansatz zur Problemlösung.   | She has a pragmatic approach to problem-solving.
+32 | authentisch    | authentic                | B2 | Persönlichkeit| Sei authentisch — das merken die Leute sofort.          | Be authentic — people notice that immediately.
+33 | resilient      | resilient                | B2 | Psychologie | Ein resilientes Team übersteht auch Krisen.              | A resilient team gets through even crises.
+34 | dezentral      | decentralised            | B2 | Technik     | Das System ist dezentral organisiert.                    | The system is organised in a decentralised way.
+35 | skalierbar     | scalable                 | B2 | Technik     | Die Lösung muss skalierbar sein.                         | The solution must be scalable.
+36 | zielgerichtet  | goal-oriented            | B2 | Arbeit      | Sie arbeitet sehr zielgerichtet und effizient.           | She works in a very goal-oriented and efficient way.
+37 | umstritten     | controversial / disputed | B2 | Gesellschaft| Das Projekt ist politisch sehr umstritten.               | The project is very politically disputed.
+38 | tragfähig      | viable / sustainable     | B2 | Wirtschaft  | Wir brauchen ein tragfähiges Geschäftsmodell.            | We need a viable business model.
+39 | verbindlich    | binding / obligatory     | B2 | Recht       | Die Vereinbarung ist rechtlich verbindlich.              | The agreement is legally binding.
+40 | verhältnismäßig | proportionate           | B2 | Recht       | Die Strafe muss verhältnismäßig zur Tat sein.            | The punishment must be proportionate to the act.
+41 | vorrangig      | primary / foremost       | B2 | Arbeit      | Die Kundenzufriedenheit ist vorrangig.                   | Customer satisfaction is of primary importance.
+42 | verlässlich    | reliable / dependable    | B2 | Persönlichkeit| Verlässlichkeit ist eine sehr geschätzte Eigenschaft.   | Reliability is a highly valued quality.
+43 | erstrebenswert | desirable / worth striving for | B2 | Abstrakt | Work-Life-Balance ist ein erstrebenswertes Ziel.        | Work-life balance is a desirable goal.
+44 | herausfordernd | challenging              | B2 | Arbeit      | Die Aufgabe ist herausfordernd, aber machbar.            | The task is challenging but doable.
+45 | wegweisend     | pioneering / groundbreaking | B2 | Wissenschaft | Diese Studie ist wirklich wegweisend.                 | This study is truly groundbreaking.
+46 | nachvollziehbar| understandable / logical | B2 | Kommunikation| Ihre Argumentation ist sehr nachvollziehbar.            | Your argumentation is very understandable.
+47 | folgerichtig   | logical / consistent     | B2 | Analyse     | Das ist eine folgerichtige Schlussfolgerung.             | That is a logical conclusion.
+48 | ausgewogen     | balanced                 | B2 | Beschreiben | Der Bericht ist sehr ausgewogen und neutral.             | The report is very balanced and neutral.
+49 | repräsentativ  | representative           | B2 | Wissenschaft| Die Stichprobe ist nicht repräsentativ genug.            | The sample is not representative enough.
+50 | tiefgründig    | profound / deep          | B2 | Abstrakt    | Es war ein tiefgründiges Gespräch über das Leben.        | It was a profound conversation about life.
+
+================================================================================
+  RUHRDEUTSCH ADJECTIVE BONUS — Informal variants used in daily Duisburg life
+================================================================================
+
+krass      → extreme / insane (positive or negative) — "Das war krass gut heute!"
+geil       → awesome / cool — "Die neue Wohnung ist echt geil!"
+bescheuert → stupid / ridiculous — "Das ist doch bescheuert, ne?"
+mega       → super / mega — "Mega günstig hier, Alter!"
+hammermäßig→ amazing — "Das Essen war hammermäßig!"
+langweilig → boring (standard but used constantly) — "Der Film war so langweilig."
+anstrengend→ exhausting — "Der Tag war echt anstrengend."
+spannend   → exciting / interesting — "Das Thema finde ich super spannend."
+
+================================================================================
+  END OF FILE
+  Deutsch Trainer | B1/B2 Verbs & Vocabulary Master List
+  80 B1 Verbs | 80 B2 Verbs | 80 B1 Nouns | 80 B2 Nouns | 50 B1 Adj | 50 B2 Adj
+  Total entries: 420
+  Weiter so — du machst dat richtig! 💪
+================================================================================

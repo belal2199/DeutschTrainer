@@ -73,14 +73,20 @@ export class NounsComponent implements OnInit {
   onCategory(c: string) { this.category.set(c); }
 
   togglePracticed(noun: Noun) {
-    const prev = noun.practiced;
-    noun.practiced = !noun.practiced;
-    if (!prev) this.progress.incrementNouns();
+    const wasPracticed = noun.practiced;
+    this.nouns.update(list =>
+      list.map(n => n._id === noun._id ? { ...n, practiced: !wasPracticed } : n),
+    );
+    if (!wasPracticed) this.progress.incrementNouns();
     this.vocab.toggleNounPracticed(noun._id).subscribe({
       next: (updated) => {
         this.nouns.update(list => list.map(n => n._id === updated._id ? updated : n));
       },
-      error: () => { noun.practiced = prev; }
+      error: () => {
+        this.nouns.update(list =>
+          list.map(n => n._id === noun._id ? { ...n, practiced: wasPracticed } : n),
+        );
+      },
     });
   }
 }
