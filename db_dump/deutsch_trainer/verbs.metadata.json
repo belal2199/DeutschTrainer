@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"},{"v":{"$numberInt":"2"},"key":{"infinitiv":{"$numberInt":"1"}},"name":"infinitiv_1","background":true,"unique":true}],"uuid":"1f60024b9bd8411ab27c30bdcbfef400","collectionName":"verbs","type":"collection"}

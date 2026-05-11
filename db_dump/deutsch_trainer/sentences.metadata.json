@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"},{"v":{"$numberInt":"2"},"key":{"german":{"$numberInt":"1"}},"name":"german_1","background":true,"unique":true}],"uuid":"e10afa906d514ff8b7c87a77bc52f722","collectionName":"sentences","type":"collection"}

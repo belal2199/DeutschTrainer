@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"},{"v":{"$numberInt":"2"},"key":{"topicId":{"$numberInt":"1"}},"name":"topicId_1","background":true,"unique":true}],"uuid":"d9389bddd9114b5b9781dca1df916cf2","collectionName":"dailylifetopics","type":"collection"}
